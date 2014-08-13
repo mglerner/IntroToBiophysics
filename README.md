@@ -21,11 +21,19 @@ of our [textbook][PBoC]:
 The main text (*required*) will be
 [Physical Biology of the Cell, Second Edition][PBoC]. We'll make
 fairly heavy use of the
-[companion site](http://microsite.garlandscience.com/pboc2/).
+[companion site](http://microsite.garlandscience.com/pboc2/). We will
+not cover the whole book; see below for a list of topics. Other people have taught similar courses, and some have been kind enough to put their course materials online (e.g. [SFU](http://www.sfu.ca/phys/347/), [Cambridge](http://www.damtp.cam.ac.uk/user/gold/teaching_biophysicsIII.html)).
 
 For supplemental information, we'll primarily use Phil Nelson's
 [Biological Physics](http://www.physics.upenn.edu/~biophys/), as well
 as his in-progress book on computational modeling.
+
+William Bialek's Biophysics:
+[Searching for Principles](http://www.princeton.edu/~wbialek/PHY562.html)
+is a graduate-level text, but is nice and free online.
+
+Duke's [Biophysics](http://www.phy.duke.edu/learning-about-biophysics)
+has a nice set of pointers to other resources.
 
 [PBoC]: http://www.garlandscience.com/product/isbn/9780815344506 "PBoC"
 
