@@ -5,7 +5,7 @@ When people ask me what it means to be a Biophysicist, my stock answer
 is "I like to think like a Physicist, but am fascinated by problems
 that come from Biology." **Introduction to Biophysics** is an
 introduction to that mindset, summed up wonderfully by the back-cover
-of our [textbook][PBoC]:
+of [Physical Biology of the Cell][PBoC]:
 
 > *Physical Biology of the Cell* maps the huge and complex landscape
 > of cell and molecular biology from the distinct perspective of
@@ -18,15 +18,20 @@ of our [textbook][PBoC]:
 
 ## Textbook(s) ##
 
-The main text (*required*) will be
-[Physical Biology of the Cell, Second Edition][PBoC]. We'll make
-fairly heavy use of the
+The main text (*required*) will be either
+[Physical Biology of the Cell, Second Edition][PBoC] or
+[Biological Physics][BiolPhys]. I'm still deciding between the two.
+Whichever we choose, we'll use the other as a significant secondary
+resource. We'll use PBoC's
 [companion site](http://microsite.garlandscience.com/pboc2/). We will
-not cover the whole book; see below for a list of topics. Other people have taught similar courses, and some have been kind enough to put their course materials online (e.g. [SFU](http://www.sfu.ca/phys/347/), [Cambridge](http://www.damtp.cam.ac.uk/user/gold/teaching_biophysicsIII.html)).
+not cover the whole book; see below for a list of topics. Other people
+have taught similar courses, and some have been kind enough to put
+their course materials online
+(e.g. [SFU](http://www.sfu.ca/phys/347/),
+[Cambridge](http://www.damtp.cam.ac.uk/user/gold/teaching_biophysicsIII.html)).
 
-For supplemental information, we'll primarily use Phil Nelson's
-[Biological Physics](http://www.physics.upenn.edu/~biophys/), as well
-as his in-progress book on computational modeling.
+For more supplemental information, we'll use Phil Nelson's in-progress
+book "Physical Models of Living Systems".
 
 William Bialek's Biophysics:
 [Searching for Principles](http://www.princeton.edu/~wbialek/PHY562.html)
@@ -36,6 +41,8 @@ Duke's [Biophysics](http://www.phy.duke.edu/learning-about-biophysics)
 has a nice set of pointers to other resources.
 
 [PBoC]: http://www.garlandscience.com/product/isbn/9780815344506 "PBoC"
+
+[BiolPhys]: http://www.physics.upenn.edu/~biophys/ "BiologicalPhysics"
 
 
 ## Prerequisites ##
