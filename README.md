@@ -42,7 +42,7 @@ William Bialek's Biophysics:
 is a graduate-level text, but is nice and free online.
 
 Duke's [Biophysics](http://www.phy.duke.edu/learning-about-biophysics)
-has a nice set of pointers to other resources.
+website has a nice set of pointers to other resources.
 
 [PBoC]: http://www.garlandscience.com/product/isbn/9780815344506 "Physical Biology of the Cell"
 
@@ -73,8 +73,8 @@ has a nice set of pointers to other resources.
   previous Python experience can discuss opting out with the
   instructor.
 
- * Biol 112, "Cells, Genes and Inheritance" is *recommended* as a
-   pre-requisite or co-requisite, but is **not required**. It will
-   give you a broader background (and a different perspective) on the
-   subject, but we'll introduce the biology as it comes up throughout
-   the course.
+* Biol 112, "Cells, Genes and Inheritance" is *recommended* as a
+  pre-requisite or co-requisite, but is **not required**. It will give
+  you a broader background (and a different perspective) on the
+  subject, but we'll introduce the biology as it comes up throughout
+  the course.
