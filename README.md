@@ -1,5 +1,5 @@
-IntroToBiophysics
-=================
+Introduction To Biophysics (PHYS 215)
+=====================================
 
 When people ask me what it means to be a Biophysicist, my stock answer
 is "I like to think like a Physicist, but am fascinated by problems
@@ -18,9 +18,13 @@ of [Physical Biology of the Cell][PBoC]:
 
 ## Textbook(s) ##
 
-The main text (*required*) will be either
-[Physical Biology of the Cell, Second Edition][PBoC] or
-[Biological Physics][BiolPhys]. I'm still deciding between the two.
+I'm still deciding on the main (*required*) textbook. There are three
+front runners at the moment:
+
+ * [Physical Biology of the Cell, Second Edition][PBoC]
+ * [Biological Physics][BiolPhys].
+ * [The Molecules of Life][MolLife]
+
 Whichever we choose, we'll use the other as a significant secondary
 resource. We'll use PBoC's
 [companion site](http://microsite.garlandscience.com/pboc2/). We will
@@ -40,9 +44,11 @@ is a graduate-level text, but is nice and free online.
 Duke's [Biophysics](http://www.phy.duke.edu/learning-about-biophysics)
 has a nice set of pointers to other resources.
 
-[PBoC]: http://www.garlandscience.com/product/isbn/9780815344506 "PBoC"
+[PBoC]: http://www.garlandscience.com/product/isbn/9780815344506 "Physical Biology of the Cell"
 
-[BiolPhys]: http://www.physics.upenn.edu/~biophys/ "BiologicalPhysics"
+[BiolPhys]: http://www.physics.upenn.edu/~biophys/ "Biological Physics"
+
+[MolLife]: http://www.garlandscience.com/product/isbn/9780815341888 "The Molecules of Life"
 
 
 ## Prerequisites ##
@@ -67,3 +73,8 @@ has a nice set of pointers to other resources.
   previous Python experience can discuss opting out with the
   instructor.
 
+ * Biol 112, "Cells, Genes and Inheritance" is *recommended* as a
+   pre-requisite or co-requisite, but is **not required**. It will
+   give you a broader background (and a different perspective) on the
+   subject, but we'll introduce the biology as it comes up throughout
+   the course.
