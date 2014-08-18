@@ -27,8 +27,12 @@ front runners at the moment:
 
 Whichever we choose, we'll use the other as a significant secondary
 resource. We'll use PBoC's
-[companion site](http://microsite.garlandscience.com/pboc2/). We will
-not cover the whole book; see below for a list of topics. Other people
+[companion site](http://microsite.garlandscience.com/pboc2/).
+
+Phil Nelson has some great material on his
+[website](http://www.physics.upenn.edu/~pcn/), especially the recent talks.
+
+We will not cover the whole book; see below for a list of topics. Other people
 have taught similar courses, and some have been kind enough to put
 their course materials online
 (e.g. [SFU](http://www.sfu.ca/phys/347/),
@@ -81,3 +85,7 @@ website has a nice set of pointers to other resources.
 
 ## Modules/Topics ##
 
+## following Nelson ##
+
+We'll likely work through the text in order, making some attempt to
+get to chapter 11, even if we have to skip some things.
