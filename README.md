@@ -85,6 +85,14 @@ website has a nice set of pointers to other resources.
 
 ## Modules/Topics ##
 
+### Protein Folding ###
+
+ * [Protein Folding Dynamics in the Cell](http://pubs.acs.org/doi/abs/10.1021/jp501866v)
+
+### Polymer stiffness ###
+
+ * [DNA: Flexibly flexible](http://www.cell.com/biophysj/abstract/S0006-3495(14)00611-0)
+
 ## following Nelson ##
 
 We'll likely work through the text in order, making some attempt to
