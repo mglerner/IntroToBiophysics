@@ -1,4 +1,4 @@
-Introduction To Biophysics (PHYS 215)
+Introduction To Biophysics (PHYS 225)
 =====================================
 
 When people ask me what it means to be a Biophysicist, my stock answer
@@ -78,3 +78,6 @@ website has a nice set of pointers to other resources.
   you a broader background (and a different perspective) on the
   subject, but we'll introduce the biology as it comes up throughout
   the course.
+
+## Modules/Topics ##
+
