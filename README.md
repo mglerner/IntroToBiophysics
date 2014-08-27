@@ -21,12 +21,12 @@ of [Physical Biology of the Cell][PBoC]:
 I'm still deciding on the main (*required*) textbook. There are three
 front runners at the moment:
 
- * [Physical Biology of the Cell, Second Edition][PBoC]
  * [Biological Physics][BiolPhys].
+ * [Physical Biology of the Cell, Second Edition][PBoC]
  * [The Molecules of Life][MolLife]
 
-Whichever we choose, we'll use the other as a significant secondary
-resource. We'll use PBoC's
+Whichever we choose, we'll use the others as significant secondary
+resources. We'll use PBoC's
 [companion site](http://microsite.garlandscience.com/pboc2/).
 
 Phil Nelson has some great material on his
@@ -38,8 +38,10 @@ their course materials online
 (e.g. [SFU](http://www.sfu.ca/phys/347/),
 [Cambridge](http://www.damtp.cam.ac.uk/user/gold/teaching_biophysicsIII.html)).
 
-For more supplemental information, we'll use Phil Nelson's in-progress
-book "Physical Models of Living Systems".
+For more supplemental information, we'll use Phil Nelson's
+(in-progress) book [Physical Models of Living Systems][PMLS], the
+whole of which is absolutely worth reading, but is more suited to an
+upper-level class.
 
 William Bialek's Biophysics:
 [Searching for Principles](http://www.princeton.edu/~wbialek/PHY562.html)
@@ -53,6 +55,8 @@ website has a nice set of pointers to other resources.
 [BiolPhys]: http://www.physics.upenn.edu/~biophys/ "Biological Physics"
 
 [MolLife]: http://www.garlandscience.com/product/isbn/9780815341888 "The Molecules of Life"
+
+[PMLS]: http://www.physics.upenn.edu/biophys/PMLS/index.html "Physical Models of Living Systems"
 
 
 ## Prerequisites ##
