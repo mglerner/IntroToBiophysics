@@ -21,7 +21,7 @@ of [Physical Biology of the Cell][PBoC]:
 I'm still deciding on the main (*required*) textbook. There are three
 front runners at the moment:
 
- * [Biological Physics][BiolPhys].
+ * [Biological Physics][BiolPhys]
  * [Physical Biology of the Cell, Second Edition][PBoC]
  * [The Molecules of Life][MolLife]
 
@@ -79,7 +79,9 @@ website has a nice set of pointers to other resources.
   throughout the semester, and this two-day bootcamp will teach you
   all the Python you need to get started right away. Students with
   previous Python experience can discuss opting out with the
-  instructor.
+  instructor. Students who absolutely cannot make it to the Bootcamp
+  can discuss working independently with the instructor to catch up
+  very early on in the semester.
 
 * Biol 112, "Cells, Genes and Inheritance" is *recommended* as a
   pre-requisite or co-requisite, but is **not required**. It will give
@@ -97,7 +99,7 @@ website has a nice set of pointers to other resources.
 
  * [DNA: Flexibly flexible](http://www.cell.com/biophysj/abstract/S0006-3495(14)00611-0)
 
-## following Nelson ##
+## Following Nelson ##
 
 We'll likely work through the text in order, making some attempt to
 get to chapter 11, even if we have to skip some things.
