@@ -237,7 +237,7 @@ environments). Ballpark estimate: 6 class days.
 ### Chemical forces and self assembly ###
 
 We talk a lot about equilibrium in Physics, but a lot of Physics (and
-**all** of Biology) takes place far from equilibrium. Chapter eight
+**all** of Biology) takes place far from equilibrium (not to put too fine a point on it, but, in equilibrium, we're all dead). Chapter eight
 asks how this deviation from equilibrium can do work, and how
 different biochemical systems interact with each other. To this end,
 we introduce the ideas of chemical potentials and forces, as well as
