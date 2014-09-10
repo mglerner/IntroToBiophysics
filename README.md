@@ -136,11 +136,11 @@ website has a nice set of pointers to other resources.
 
 ## Course Structure and Grades ##
 
-    * Reading assignments: 10%
-    * Clicker questions and participation: 5%
-    * Research project: 15%
-    * Homework: 35%
-    * Exams: 35% (two midterms each 10%, one comprehensive final 15%)
+  * Reading assignments: 10%
+  * Clicker questions and participation: 5%
+  * Research project: 15%
+  * Homework: 35%
+  * Exams: 35% (two midterms each 10%, one comprehensive final 15%)
 
 ## Modules/Topics ##
 
