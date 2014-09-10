@@ -35,8 +35,8 @@ front runners at the moment:
  * [Physical Biology of the Cell, Second Edition][PBoC]
  * [The Molecules of Life][MolLife]
 
-Nelson is a Physics book, but it's less math-intensive and more
-readable that many other Physics texts.
+[Nelson][BiolPhys] is a most definitely Physics book, but it's less math-intensive
+and more readable that many other Physics texts.
 
 Whichever we choose, we'll use the others as significant secondary
 resources. We'll use PBoC's
