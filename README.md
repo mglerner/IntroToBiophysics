@@ -57,7 +57,7 @@ whole of which is absolutely worth reading, but is more suited to an
 upper-level class.
 
 You may be surprised to learn that some of the most famous Physicists
-were also *Bio*physicists! Einstein's "Miracle year" (1905) is
+were also *Biophysicists*! Einstein's "Miracle year" (1905) is
 so-called because of the four papers he wrote. One of those papers
 explained for the first time the connection between the macroscopic
 motion of particles in a fluid (diffusion) and the microscopic motion
