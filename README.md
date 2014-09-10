@@ -1,6 +1,8 @@
 Introduction To Biophysics (PHYS 225) (SI non-lab, A-QR)
 ========================================================
 
+**TODO** Learning goals, description of project.
+
 When people ask me what it means to be a Biophysicist, my stock answer
 is "I like to think like a Physicist, but am fascinated by problems
 that come from Biology." **Introduction to Biophysics** is an
