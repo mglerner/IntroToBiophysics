@@ -171,10 +171,10 @@ problems? Ballpark estimate: 4 class days.
 ### "Heat" is molecules moving ###
 
 Chapter three asks "what's the ideal gas law, and where does it come
-from?" Luckily for you, this is all review from Physics 125! This will
-give us a chance to review a bit about probability and make sure we
-understood what we were doing in Physics 125. Ballpark estimate: 2
-class days.
+from?" This will give us a chance to learn a bit about probability and
+make sure we understood the kinetic theory of gas as it was presented
+in intro Physics. If you took Physics 125, this will almost all be
+review! Ballpark estimate: 2 class days.
 
 ### Random Walks, Friction and Diffusion ###
 
@@ -202,15 +202,15 @@ in membranes. Will the real data match our theory?  Ballpark estimate:
 
 (Chapter 5) Cells moving around in a fluid environment see a
 *fundamentally* different physical world than you do. On a pool table,
-the inertial forces we learned about in the mechanics part of Physics
-125 tell you everything you need to know. For a bacteria swimming in a
-lake, inertial forces are far less important than viscous forces. The
-**Reynolds number** is a relationship between speed, size, density and
-viscosity that characterizes the relationship between these types of
-forces. We'll learn just how different the world is at low Reynolds
-number, and how life manages to deal with it. Ballpark estimate: 5
-class days (more depending on how much interest there is in additional
-applications).
+the inertial forces we learned about in the mechanics part of intro
+Physics tell you everything you need to know. For a bacteria swimming
+in a lake, inertial forces are far less important than viscous
+forces. The **Reynolds number** is a relationship between speed, size,
+density and viscosity that characterizes the relationship between
+these types of forces. We'll learn just how different the world is at
+low Reynolds number, and how life manages to deal with it. Ballpark
+estimate: 5 class days (more depending on how much interest there is
+in additional applications).
 
 ### Disorder, Entropy and "Free Energy" ###
 
@@ -253,7 +253,7 @@ here. Ballpark estimate: 4 days.
 
 Protein folding is one of the fundamental unsolved problems of modern
 biophysics. We'll discuss the forces involved and try our hand at some
-online-tools for poking at this problem. Ballpark estimate: 2 day.
+online-tools for poking at this problem. Ballpark estimate: 3 days.
 
  * [Protein Folding Dynamics in the Cell](http://pubs.acs.org/doi/abs/10.1021/jp501866v)
  * [Fold.it tutorials](http://fold.it/portal/)
@@ -271,7 +271,9 @@ this. Ballpark estimate: 1 day.
 The remainder of the course will be spent on topics from chapters
 9-12. We'll nail down exactly which topics will be covered in class
 after you've chosen your independent project topics (i.e. you get
-first choice for your own projects).
+first choice for your own projects). The above ballpark time estimates
+are just rough estimates, so it's possible that we'll cover all or
+none of these.
 
 #### DNA cooperativity, stiffness and stretching ####
 
