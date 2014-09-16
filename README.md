@@ -4,8 +4,8 @@ Introduction To Biophysics (PHYS 225) (SI non-lab, A-QR)
 **TODO** Learning goals, description of project.
 
 When people ask me what it means to be a Biophysicist, my stock answer
-is "I like to think like a Physicist, but am fascinated by problems
-that come from Biology." **Introduction to Biophysics** is an
+is "I like to think like a physicist, but am fascinated by problems
+that come from biology." **Introduction to Biophysics** is an
 introduction to that mindset, summed up wonderfully by the back-cover
 of [Physical Biology of the Cell][PBoC]:
 
@@ -22,11 +22,11 @@ What sorts of patterns do we expect to find in biology? Can physics
 let us determine whether a process in the cell is governed by random
 diffusion, or whether active transport (molecular motors) are needed
 to move things from one part of a cell to another? How does dialysis
-work (spoiler: entropy!)? We'll develop a small number of fundamental
-physical models, and apply them to a broad range of biological
-problems. These physical models give us both a new perspective on
-biology and a way of gaining quantitative biological intuition across
-that range of problems.
+work (spoiler: entropy!)? What are the main forces governing protein
+folding? We'll develop a small number of fundamental physical models,
+and apply them to a broad range of biological problems. These physical
+models give us both a new perspective on biology and a way of gaining
+quantitative biological intuition across that range of problems.
 
 ## Textbook(s) ##
 
@@ -37,8 +37,8 @@ front runners at the moment:
  * [Physical Biology of the Cell, Second Edition][PBoC]
  * [The Molecules of Life][MolLife]
 
-[Nelson][BiolPhys] is a most definitely Physics book, but it's less math-intensive
-and more readable that many other Physics texts.
+[Nelson][BiolPhys] is a most definitely physics book, but it's less math-intensive
+and more readable that many other physics texts.
 
 Whichever we choose, we'll use the others as significant secondary
 resources. We'll use PBoC's
@@ -58,7 +58,7 @@ For more supplemental information, we'll use Phil Nelson's
 whole of which is absolutely worth reading, but is more suited to an
 upper-level class.
 
-You may be surprised to learn that some of the most famous Physicists
+You may be surprised to learn that some of the most famous physicists
 were also *Biophysicists*! Einstein's "Miracle year" (1905) is
 so-called because of the four papers he wrote. One of those papers
 explained for the first time the connection between the macroscopic
@@ -92,7 +92,7 @@ website has a nice set of pointers to other resources.
 
 ## Prerequisites ##
 
-* **One semester of calculus-based Physics is required.** We'll be
+* **One semester of calculus-based physics is required.** We'll be
   asking the question "what are the physical concepts that unite a
   given set of biological phenomena," and we'll find that a
   surprisingly small number of physical models can give us a
@@ -100,9 +100,9 @@ website has a nice set of pointers to other resources.
   know some physics as background, and we will need to discuss rates
   of change. To be clear about the mathematical level here, we will
   spend most of our time using beautiful formulas to understand
-  nature; later Physics classes will give you a chance to look deeply
+  nature; later physics classes will give you a chance to look deeply
   and carefully at the detailed derivations of those formulas.
-  Students who have taken (non-Calculus based) Physics 120 and a
+  Students who have taken (non-Calculus based) physics 120 and a
   calculus class (in high school or college) need the consent of the
   instructor.
 
@@ -173,13 +173,13 @@ problems? Ballpark estimate: 4 class days.
 Chapter three asks "what's the ideal gas law, and where does it come
 from?" This will give us a chance to learn a bit about probability and
 make sure we understood the kinetic theory of gas as it was presented
-in intro Physics. If you took Physics 125, this will almost all be
+in intro physics. If you took physics 125, this will almost all be
 review! Ballpark estimate: 2 class days.
 
 ### Random Walks, Friction and Diffusion ###
 
-Chapter four gives us our first real shot at taking a Physicist's
-perspective on Biology, and it's full of good stories. We use Brownian
+Chapter four gives us our first real shot at taking a physicist's
+perspective on biology, and it's full of good stories. We use Brownian
 motion (random walks) to build up a model of diffusion and friction,
 and start asking questions like: a single-celled bacterium living in a
 lake needs oxygen to survive. Given that, is there a physical limit on
@@ -203,7 +203,7 @@ in membranes. Will the real data match our theory?  Ballpark estimate:
 (Chapter 5) Cells moving around in a fluid environment see a
 *fundamentally* different physical world than you do. On a pool table,
 the inertial forces we learned about in the mechanics part of intro
-Physics tell you everything you need to know. For a bacteria swimming
+physics tell you everything you need to know. For a bacteria swimming
 in a lake, inertial forces are far less important than viscous
 forces. The **Reynolds number** is a relationship between speed, size,
 density and viscosity that characterizes the relationship between
@@ -215,7 +215,7 @@ in additional applications).
 ### Disorder, Entropy and "Free Energy" ###
 
 Chapter 6 is one of the real gems of the book. We've been talking
-about energy since the first day of our first Physics class, but the
+about energy since the first day of our first physics class, but the
 real world has a secret for us: not all energy can be converted into
 useful work. "Free energy" is the energy available to do useful work,
 and it's direly important in analyzing and understanding biological
@@ -238,9 +238,10 @@ environments). Ballpark estimate: 6 class days.
 
 ### Chemical forces and self assembly ###
 
-We talk a lot about equilibrium in Physics, but a lot of Physics (and
-**all** of Biology) takes place far from equilibrium (not to put too fine a point on it, but, in equilibrium, we're all dead). Chapter eight
-asks how this deviation from equilibrium can do work, and how
+We talk a lot about equilibrium in physics, but a lot of physics (and
+**all** of biology) takes place far from equilibrium (not to put too
+fine a point on it, but, in equilibrium, we're all dead). Chapter
+eight asks how this deviation from equilibrium can do work, and how
 different biochemical systems interact with each other. To this end,
 we introduce the ideas of chemical potentials and forces, as well as
 the concept of self assembly. The plan is to cover this in roughly
@@ -263,8 +264,8 @@ online-tools for poking at this problem. Ballpark estimate: 3 days.
 Despite our earlier focus on complex physics, it turns out that models
 based on the springs we learned about in our very first semester of
 physics can explain an almost unreasonable amount about how proteins
-move and interact. Demian Riccardi will give a guest lecture for
-this. Ballpark estimate: 1 day.
+move and interact. Demian Riccardi (from the Chemistry department)
+will give a guest lecture for this. Ballpark estimate: 1 day.
 
 ### Remaining Topics ###
 
