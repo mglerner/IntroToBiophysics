@@ -299,6 +299,23 @@ Molecular motors and other types of cellular machinery, from chapter
 One of the mainstays of biophysical theory and experiment. Ballpark
 estimate: 5 days.
 
+#### Molecular Dynamics ####
+
+Computers are often used to simulate biomolecules, and we can do
+state-of-the-art simulations on our very own campus supercomputing
+clusters. This may get folded (ha! ha!)
+into the Protein Folding section. Ballpark estimate: 2 days.
+
+#### Quantum Mechanical Simulations ####
+
+Molecular dynamics allows us to look at an amazing variety of
+processes, but it has some very important limitations. The most
+obvious of those are (1) it cannot simulate the making or breaking of
+bonds (2) it is bad at simulating most metals and multivalent
+ions. For this, you need quantum mechanics (possible guest lecture
+from Lori)! Ballpark estimate: 2 days.
+
+
 ### Project presentations ###
 
 The plan is to have 15-minute presentations, allowing three
