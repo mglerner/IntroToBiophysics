@@ -315,6 +315,22 @@ bonds (2) it is bad at simulating most metals and multivalent
 ions. For this, you need quantum mechanics (possible guest lecture
 from Lori)! Ballpark estimate: 2 days.
 
+#### Neurons, action potentials, neuroscience ####
+
+Hodgkin-Huxley at least (maybe a guest lecture from Kat Bartlow). I
+have a feeling that this will be taken as a project, but there are
+some great resources
+online, especially for computational neuroscience. E.g. Paul Gribble's Computational Modeling in Neuroscience
+[course](http://gribblelab.org/compneuro/index.html) (the Oct 1-4
+lectures in particular), some powerful modeling
+[code](http://nbviewer.ipython.org/github/brian-team/brian-material/blob/master/2013-CNS-tutorial/03-model-fitting/slides.ipynb)
+using [Brian](http://briansimulator.org/), and
+[several](http://nbviewer.ipython.org/github/vargaslo/model_fitting/blob/master/model_ionic_gating_nlopt.ipynb)
+[other](http://nbviewer.ipython.org/github/forrestsheldon/neurodynamics/blob/master/week_3_Dynamical_systems.ipynb)
+[IPython](http://nbviewer.ipython.org/gist/coderforlife/6473989)
+[notebooks](http://nbviewer.ipython.org/github/forrestsheldon/neurosci/blob/master/Stim_Cancellation_in_Cerrebellum.ipynb)
+depending on your level of comfort/experience.
+
 
 ### Project presentations ###
 
