@@ -331,6 +331,12 @@ using [Brian](http://briansimulator.org/), and
 [notebooks](http://nbviewer.ipython.org/github/forrestsheldon/neurosci/blob/master/Stim_Cancellation_in_Cerrebellum.ipynb)
 depending on your level of comfort/experience.
 
+#### Structure and dynamics of cell membranes #######
+
+Kalani Seu is a local experimental expert here. We may ask him to give
+a guest lecture, or an interested student could interview him as part
+of an individual project.
+
 
 ### Project presentations ###
 
