@@ -1,8 +1,6 @@
 Introduction To Biophysics (PHYS 225/BIOL 225) (SI non-lab, A-QR)
 ========================================================
 
-**TODO** Learning goals, description of project.
-
 When people ask me what it means to be a Biophysicist, my stock answer
 is "I like to think like a physicist, but am fascinated by problems
 that come from biology." **Introduction to Biophysics** is an
@@ -28,6 +26,25 @@ and apply them to a broad range of biological problems. These physical
 models give us both a new perspective on biology and a way of gaining
 quantitative biological intuition across that range of problems.
 
+## Learning Goals ##
+
+In addition to specific content-related learning objectives, the
+course has several non-content, "course-scale" learning
+objectives. During this course, successful students will
+
+    * Develop problem solving skills and the ability to connect
+      concepts between physics, biology, chemistry and mathematics to
+      understand how biological systems function.
+    * Use simple physical models to provide quantitative insight into
+      biological systems.
+    * Gain exposure to the important questions in the modern field of
+      molecular biophysics and evaluate current research on a system
+      of their choice.
+    * Mature in knowledge organization and communication, gaining in
+      ability to justify and explain approches and solutions to
+      problems, either in written or oral form; be able to articulate
+      big ideas from each content area.
+
 ## Textbook(s) ##
 
 I'm still deciding on the main (*required*) textbook. There are three
@@ -38,7 +55,8 @@ front runners at the moment:
  * [The Molecules of Life][MolLife]
 
 [Nelson][BiolPhys] is a most definitely physics book, but it's less math-intensive
-and more readable that many other physics texts.
+and more readable that many other physics texts. It's the most likely
+choice at this point.
 
 Whichever we choose, we'll use the others as significant secondary
 resources. We'll use PBoC's
@@ -138,11 +156,74 @@ website has a nice set of pointers to other resources.
 
 ## Course Structure and Grades ##
 
-  * Reading assignments: 10%
-  * Clicker questions and participation: 5%
-  * Research project: 15%
-  * Homework: 35%
-  * Exams: 35% (two midterms each 10%, one comprehensive final 15%)
+  * Reading assignments and Moodle participation: 10%. This course
+    covers a fantastically wide variety of topics, and students come
+    from a wide variety of backgrounds with a corresponding variety of
+    interests. All of that means that we'll want to have great
+    in-class discussions, and focus on the most important/interesting
+    parts. We can only do that if you've done the reading ahead of
+    time. To ensure that you're prepared for class, and to ensure that
+    I'll be able to focus on the parts that are giving you the most
+    trouble, you will be **required to post to the Moodle site by 8PM
+    the night before each class**. Your post should include what you
+    thought was most interesting and most important from the
+    reading. You should also be sure to mention any parts of the
+    reading that were particularly hard to understand.
+  * Clicker questions and participation: 5%. We'll use clicker
+    questions, think-pair-share, and other active learning techniques
+    to supplement in-class discussion. These are designed to assess
+    the overall class and to inspire discussion; your grade on this
+    portion will be based on the percentage of the questions that you
+    answer.
+  * Research project: 15%. One of the main goals for the class is to
+    get you to the point where you can read about current, active
+    research topics. Your research project consists of two parts: a
+    paper and a presentation. Each student will choose a biomolecular
+    system that is interesting to her/him, and search the modern
+    biophysical literature for 2-3 papers that use experimental and/or
+    theoretical methods to address the structure, function, and/or
+    dynamics of the system.  The paper should be approximately 7-8
+    pages in length (including a couple of figures and a
+    bibliography). Proposals for the project will be due half way
+    through the course, and 1-2 rough drafts will be required. The
+    presentation should be 15 minutes in length.  Questions that
+    should be addressed in both the paper and the presentation include
+    (but are obviously not limited to):
+        * Why is this system important and interesting?
+        * What were the methods used in the studies?
+        * How do these studies complement each other?
+        * What did the studies find, and how does that relate to
+          things we've learned in class?
+        * What are the outstanding questions that these studies have
+          left, and how could those questions be answered?
+  * Homework: 35%. Homework will be assigned at the end of each
+    chapter, and you'll have approximately one week to complete each
+    assignment. You can turn in an assignment up to one class day late
+    for 80% credit, and up to a week late for 50% credit. After that,
+    you may receive 25% credit for the assignment, but the grading
+    will be significantly less detailed. When calculating your
+    homework grade, I will drop the worst single assignment grade
+    (e.g. if there are 10 assignments, I'll average the best
+    9). Homework problems will be graded on the same scale used in
+    Physics 125 and 235:
+        * **5 points** Correct or close-to-correct solution with maybe
+          a small sign or arithmetic error.
+        * **4 points** Correct reasoning for the solution with maybe
+          an algebra error.
+        * **3 points** Small or single mistake in reasoning for
+          solution, but correct follow-through.
+        * **2 points** Large or multiple mistakes in reasoning for
+          solution, or substantive but incomplete problem-solving.
+        * **1 point** Some (written) attempt at problem solving.
+        * **0 points** No attempt.
+  * Exams: 35%. The final will be worth 15% of your grade. The other
+  two midterm exams will combine for 20%, but I'm kind in the
+  weighting: if you do better on one of the midterms, I will
+  retroactively make it worth 15%, while your lower score becomes
+  worth 5%. The re-weighting is done on a per-student basis, and won't
+  be done if it lowers your grade instead of raising it. Further,
+  students can **redo** missed exam problems to earn extra credit on
+  their overall homework grade.
 
 ## Modules/Topics ##
 
@@ -345,3 +426,10 @@ presentations per class period. I've blocked out three days for
 presentations. If we have more than nine people enrolled, we'll have
 to consider shorter presentations or extra class times. Ballpark
 estimate: 3 days.
+
+## Acknowledgements ##
+
+Both [Jeff Wereszczynski](http://mypages.iit.edu/~jwereszc/) and
+[J.C. Gumbart](http://simbac.gatech.edu/) have graciously provided 
+information and examples relating both to the syllabus and to the
+content. 
