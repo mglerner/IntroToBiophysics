@@ -1,6 +1,9 @@
 Introduction To Biophysics (PHYS 225/BIOL 225) (SI non-lab, A-QR)
 ========================================================
 
+**TODO** revamp for two 80 minute class per week, rather than three 50
+  minute classes.
+
 When people ask me what it means to be a Biophysicist, my stock answer
 is "I like to think like a physicist, but am fascinated by problems
 that come from biology." **Introduction to Biophysics** is an
@@ -32,18 +35,18 @@ In addition to specific content-related learning objectives, the
 course has several non-content, "course-scale" learning
 objectives. During this course, successful students will
 
-    * Develop problem solving skills and the ability to connect
-      concepts between physics, biology, chemistry and mathematics to
-      understand how biological systems function.
-    * Use simple physical models to provide quantitative insight into
-      biological systems.
-    * Gain exposure to the important questions in the modern field of
-      molecular biophysics and evaluate current research on a system
-      of their choice.
-    * Mature in knowledge organization and communication, gaining in
-      ability to justify and explain approches and solutions to
-      problems, either in written or oral form; be able to articulate
-      big ideas from each content area.
+  * Develop problem solving skills and the ability to connect
+    concepts between physics, biology, chemistry and mathematics to
+    understand how biological systems function.
+  * Use simple physical models to provide quantitative insight into
+    biological systems.
+  * Gain exposure to the important questions in the modern field of
+    molecular biophysics and evaluate current research on a system
+    of their choice.
+  * Mature in knowledge organization and communication, gaining in
+    ability to justify and explain approches and solutions to
+    problems, either in written or oral form; be able to articulate
+    big ideas from each content area.
 
 ## Textbook(s) ##
 
@@ -189,6 +192,7 @@ website has a nice set of pointers to other resources.
     presentation should be 15 minutes in length.  Questions that
     should be addressed in both the paper and the presentation include
     (but are obviously not limited to):
+
         * Why is this system important and interesting?
         * What were the methods used in the studies?
         * How do these studies complement each other?
@@ -196,6 +200,7 @@ website has a nice set of pointers to other resources.
           things we've learned in class?
         * What are the outstanding questions that these studies have
           left, and how could those questions be answered?
+
   * Homework: 35%. Homework will be assigned at the end of each
     chapter, and you'll have approximately one week to complete each
     assignment. You can turn in an assignment up to one class day late
@@ -206,6 +211,7 @@ website has a nice set of pointers to other resources.
     (e.g. if there are 10 assignments, I'll average the best
     9). Homework problems will be graded on the same scale used in
     Physics 125 and 235:
+
         * **5 points** Correct or close-to-correct solution with maybe
           a small sign or arithmetic error.
         * **4 points** Correct reasoning for the solution with maybe
@@ -216,14 +222,15 @@ website has a nice set of pointers to other resources.
           solution, or substantive but incomplete problem-solving.
         * **1 point** Some (written) attempt at problem solving.
         * **0 points** No attempt.
+
   * Exams: 35%. The final will be worth 15% of your grade. The other
-  two midterm exams will combine for 20%, but I'm kind in the
-  weighting: if you do better on one of the midterms, I will
-  retroactively make it worth 15%, while your lower score becomes
-  worth 5%. The re-weighting is done on a per-student basis, and won't
-  be done if it lowers your grade instead of raising it. Further,
-  students can **redo** missed exam problems to earn extra credit on
-  their overall homework grade.
+    two midterm exams will combine for 20%, but I'm kind in the
+    weighting: if you do better on one of the midterms, I will
+    retroactively make it worth 15%, while your lower score becomes
+    worth 5%. The re-weighting is done on a per-student basis, and
+    won't be done if it lowers your grade instead of raising
+    it. Further, students can **redo** missed exam problems to earn
+    extra credit on their overall homework grade.
 
 ## Modules/Topics ##
 
