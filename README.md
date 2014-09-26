@@ -172,12 +172,14 @@ website has a nice set of pointers to other resources.
     thought was most interesting and most important from the
     reading. You should also be sure to mention any parts of the
     reading that were particularly hard to understand.
+
   * Clicker questions and participation: 5%. We'll use clicker
     questions, think-pair-share, and other active learning techniques
     to supplement in-class discussion. These are designed to assess
     the overall class and to inspire discussion; your grade on this
     portion will be based on the percentage of the questions that you
     answer.
+
   * Research project: 15%. One of the main goals for the class is to
     get you to the point where you can read about current, active
     research topics. Your research project consists of two parts: a
@@ -193,13 +195,17 @@ website has a nice set of pointers to other resources.
     should be addressed in both the paper and the presentation include
     (but are obviously not limited to):
 
-        * Why is this system important and interesting?
-        * What were the methods used in the studies?
-        * How do these studies complement each other?
-        * What did the studies find, and how does that relate to
-          things we've learned in class?
-        * What are the outstanding questions that these studies have
-          left, and how could those questions be answered?
+      * Why is this system important and interesting?
+
+      * What were the methods used in the studies?
+
+      * How do these studies complement each other?
+
+      * What did the studies find, and how does that relate to
+        things we've learned in class?
+
+      * What are the outstanding questions that these studies have
+        left, and how could those questions be answered?
 
   * Homework: 35%. Homework will be assigned at the end of each
     chapter, and you'll have approximately one week to complete each
@@ -212,17 +218,22 @@ website has a nice set of pointers to other resources.
     9). Homework problems will be graded on the same scale used in
     Physics 125 and 235:
 
-        * **5 points** Correct or close-to-correct solution with maybe
-          a small sign or arithmetic error.
-        * **4 points** Correct reasoning for the solution with maybe
-          an algebra error.
-        * **3 points** Small or single mistake in reasoning for
-          solution, but correct follow-through.
-        * **2 points** Large or multiple mistakes in reasoning for
-          solution, or substantive but incomplete problem-solving.
-        * **1 point** Some (written) attempt at problem solving.
-        * **0 points** No attempt.
+      * **5 points** Correct or close-to-correct solution with maybe
+        a small sign or arithmetic error.
 
+      * **4 points** Correct reasoning for the solution with maybe
+        an algebra error.
+
+      * **3 points** Small or single mistake in reasoning for
+        solution, but correct follow-through.
+
+      * **2 points** Large or multiple mistakes in reasoning for
+        solution, or substantive but incomplete problem-solving.
+
+      * **1 point** Some (written) attempt at problem solving.
+
+      * **0 points** No attempt.
+  
   * Exams: 35%. The final will be worth 15% of your grade. The other
     two midterm exams will combine for 20%, but I'm kind in the
     weighting: if you do better on one of the midterms, I will
