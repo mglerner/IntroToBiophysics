@@ -1,8 +1,15 @@
 Introduction To Biophysics (PHYS 225/BIOL 225) (SI non-lab, A-QR)
 ========================================================
 
-**TODO** revamp for two 80 minute class per week, rather than three 50
-  minute classes.
+**TODO**
+
+  1. revamp for two 80 minute class per week, rather than three 50
+     minute classes.
+
+  1. decide if Demian should cover ENM (benefit: dead simple physical
+     model + a touch of linear algebra = deep insight) or QM/MM
+     (benefit: MGL does MD, DR does QM/MM, LW does QM+DFT is a really
+     nice sequence)
 
 When people ask me what it means to be a Biophysicist, my stock answer
 is "I like to think like a physicist, but am fascinated by problems
