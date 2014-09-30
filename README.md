@@ -266,11 +266,22 @@ website has a nice set of pointers to other resources.
 | **Week of** | **Tuesday** | **Friday** | **Assignments** |
 |-------------|:------------|:-----------|----------------:|
 |01/13||Ch. 1-2||
-|01/20||Finish chapter 2, start chapter 3||
-|01/27||Chapter 4||
+|01/20||Finish Ch. 2, start Ch. 3||
+|01/27||Ch. 4||
 |02/03||||
 |02/10||Molecular dynamics, diffusion in membranes (instructor-provided materials||
-|02/17|Hand out **exam 1**, in-class lab|*Early semester break*|
+|02/17|Hand out **exam 1**, in-class lab|*Early semester break*||
+|02/24|Ch.5|||
+|03/03|Finish Ch. 5, potential guest lecture on Hodgkin-Huxley|Ch. 6||
+|03/10||||
+|03/17|*Spring Break*|*Spring Break*||
+|03/24|Extra material on free energy in biology|Ch. 7||
+|03/31|Hand out **exam 2**|||
+|04/07||Ch. 8||
+|04/14||||
+|04/21|Protein folding (instructor provided), FoldIt|Potential guest lectures on QM and QM/MM||
+|04/28|Presentations|Presentations||
+|05/05|Reading day|Go home!||
 
 
 
