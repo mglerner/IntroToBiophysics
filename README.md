@@ -206,8 +206,12 @@ website has a nice set of pointers to other resources.
     biophysical literature for 2-3 papers that use experimental and/or
     theoretical methods to address the structure, function, and/or
     dynamics of the system.  The paper should be approximately 7-8
-    pages in length (including a couple of figures and a
-    bibliography). Proposals for the project will be due half way
+    pages in length. This includes a couple of figures and a
+    bibliography; you're free to create your own figures completely
+    from scratch, or show that you can reproduce a particularly good
+    figure on your own in Python. Extra computer simulations may also
+    be used to generate figures, especially if you attended the Python
+    bootcamp. Proposals for the project will be due half way
     through the course, and 1-2 rough drafts will be required. The
     presentation should be 15 minutes in length.  Questions that
     should be addressed in both the paper and the presentation include
@@ -265,11 +269,11 @@ website has a nice set of pointers to other resources.
 
 | **Week of** | **Tuesday** | **Friday** | **Assignments** |
 |-------------|:------------|:-----------|----------------:|
-|01/13||Ch. 1-2||
+|01/13|*No class*|Ch. 1-2||
 |01/20||Finish Ch. 2, start Ch. 3||
 |01/27||Ch. 4||
 |02/03||||
-|02/10||Molecular dynamics, diffusion in membranes (instructor-provided materials||
+|02/10||Molecular dynamics, diffusion in membranes (instructor-provided materials)||
 |02/17|Hand out **exam 1**, in-class lab|*Early semester break*||
 |02/24|Ch.5|||
 |03/03|Finish Ch. 5, potential guest lecture on Hodgkin-Huxley|Ch. 6||
@@ -301,6 +305,10 @@ world, and we will collaborate with a lab at South Dakota State
 University to watch *individual* lipids diffusing in a membrane. We'll
 compare these to both our theoretical results and some simple
 computational models of diffusion.
+
+**Note:** the ballpark estimates below refer to 50-minute
+  classes. We'll be meeting twice per week for 80 minutes, so the
+  calendar above is more accurate.
 
 ### Introduction to physical principles and cellular/molecular biology ###
 
