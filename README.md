@@ -11,6 +11,8 @@ Introduction To Biophysics (PHYS 225/BIOL 225) (SI non-lab, A-QR)
      (benefit: MGL does MD, LW does QM+DFT, DR does QM/MM is a really
      nice sequence)
 
+  1. Add accommodations, plagiarism policy, etc.
+
 When people ask me what it means to be a Biophysicist, my stock answer
 is "I like to think like a physicist, but am fascinated by problems
 that come from biology." **Introduction to Biophysics** is an
@@ -166,6 +168,15 @@ website has a nice set of pointers to other resources.
 
 ## Course Structure and Grades ##
 
+|Assignment | points |
+|:----------|-------:|
+| Reading and moodle participation | 10% |
+| Clicker questions and class participation | 5% |
+| Research Project | 15% |
+| Homework | 35% |
+| Exams | 35% |
+
+
   * Reading assignments and Moodle participation: 10%. This course
     covers a fantastically wide variety of topics, and students come
     from a wide variety of backgrounds with a corresponding variety of
@@ -249,6 +260,19 @@ website has a nice set of pointers to other resources.
     won't be done if it lowers your grade instead of raising
     it. Further, students can **redo** missed exam problems to earn
     extra credit on their overall homework grade.
+
+## Calendar ##
+
+| **Week of** | **Tuesday** | **Friday** | **Assignments** |
+|-------------|:------------|:-----------|----------------:|
+|01/13||Ch. 1-2||
+|01/20||Finish chapter 2, start chapter 3||
+|01/27||Chapter 4||
+|02/03||||
+|02/10||Molecular dynamics, diffusion in membranes (instructor-provided materials||
+|02/17|Hand out **exam 1**, in-class lab|*Early semester break*|
+
+
 
 ## Modules/Topics ##
 
