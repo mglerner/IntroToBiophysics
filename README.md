@@ -269,20 +269,20 @@ website has a nice set of pointers to other resources.
 
 | **Week of** | **Tuesday** | **Friday** | **Assignments** |
 |-------------|:------------|:-----------|----------------:|
-|01/13|*No class*|Ch. 1-2||
-|01/20||Finish Ch. 2, start Ch. 3||
-|01/27||Ch. 4||
-|02/03||||
-|02/10||Molecular dynamics, diffusion in membranes (instructor-provided materials)||
+|01/13|*No class*|1.1-1.4||
+|01/20|1.5, 2.1-2.2|2.3, 3.1||
+|01/27|3.2-3.3|4.1||
+|02/03|4.2-4.3|4.4-4.5||
+|02/10|4.6|Molecular dynamics, diffusion in membranes (instructor-provided materials)||
 |02/17|Hand out **exam 1**, in-class lab|*Early semester break*||
-|02/24|Ch.5|||
-|03/03|Finish Ch. 5, potential guest lecture on Hodgkin-Huxley|Ch. 6||
-|03/10||||
+|02/24|5.1-5.2|5.2(cont)-5.3||
+|03/03|5.3(cont)-5.4, potential guest lecture on Hodgkin-Huxley (conceptually, after HW from 4.6) |6.1-6.3||
+|03/10|6.4-6.5|6.6-6.7||
 |03/17|*Spring Break*|*Spring Break*||
-|03/24|Extra material on free energy in biology|Ch. 7||
-|03/31|Hand out **exam 2**|||
-|04/07||Ch. 8||
-|04/14||||
+|03/24|Extra material on free energy in biology|7.1-7.2||
+|03/31|Hand out **exam 2**, 7.3, research **proposals due**|7.4||
+|04/07|7.5, more MD|8.1-8.2||
+|04/14|8.3-8.4|8.5-8.6||
 |04/21|Protein folding (instructor provided), FoldIt|Potential guest lectures on QM and QM/MM||
 |04/28|Presentations|Presentations||
 |05/05|Reading day|Go home!||
@@ -466,7 +466,7 @@ from Lori)! Ballpark estimate: 2 days.
 
 #### Neurons, action potentials, neuroscience ####
 
-Hodgkin-Huxley at least (maybe a guest lecture from Kat Bartlow). I
+Chapter 12. Hodgkin-Huxley at least (maybe a guest lecture from Kat Bartlow). I
 have a feeling that this will be taken as a project, but there are
 some great resources
 online, especially for computational neuroscience. E.g. Paul Gribble's Computational Modeling in Neuroscience
