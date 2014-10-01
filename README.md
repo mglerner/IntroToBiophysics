@@ -1,4 +1,4 @@
-Introduction To Biophysics (PHYS 225/BIOL 225) (SI non-lab, A-QR)
+Introduction To Biophysics (PHYS 225/BIOL 225) (3 credits, SI non-lab, A-QR)
 ========================================================
 
 **TODO**
