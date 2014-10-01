@@ -59,19 +59,21 @@ objectives. During this course, successful students will
 
 ## Textbook(s) ##
 
-I'm still deciding on the main (*required*) textbook. There are three
-front runners at the moment:
+The primary (and *required*) textbook will be [Nelson][BiolPhys]. It's
+most definitely a physics book, but it's less math-intensive and more
+readable than many other physics texts, and has gotten great reviews
+from classes just like this one. There are (at least!) two other
+excellent books that I considered using:
 
- * [Biological Physics][BiolPhys]
- * [Physical Biology of the Cell, Second Edition][PBoC]
- * [The Molecules of Life][MolLife]
+ * [Physical Biology of the Cell, Second Edition][PBoC] does a
+   masterful job of laying things out from a physics perspective, but
+   most readers will want to have a bit more than one semester of
+   physics under their belt before reading through it.
+ * [The Molecules of Life][MolLife] covers much of the same material
+   from more of a biological perspective, and should be an excellent
+   resource for many of you.
 
-[Nelson][BiolPhys] is a most definitely physics book, but it's less math-intensive
-and more readable that many other physics texts. It's the most likely
-choice at this point.
-
-Whichever we choose, we'll use the others as significant secondary
-resources. We'll use PBoC's
+We'll use these as significant secondary resources. We'll use PBoC's
 [companion site](http://microsite.garlandscience.com/pboc2/).
 
 Phil Nelson has some great material on his
@@ -294,11 +296,13 @@ website has a nice set of pointers to other resources.
 We'll follow Nelson in order, although we'll pick and choose among the
 chapters and sections based both on my opinions and *your*
 interests. As described above, a research project (paper and
-presentation) is a key component of the class. We expect to cover the
-majority of Chapters 1-8 and selected sections from chapters 9
-and 10. As a biophysicist, chapters 9, 10, 11 and 12 are near and dear
-to my heart, and make a great set of ideas for your independent
-projects!
+presentation) is a key component of the class.  The above schedule
+will get us through all of chapters 1-8 at a comfortable pace. As a
+biophysicist, chapters 9, 10, 11 and 12 are near and dear to my heart,
+and make a great set of ideas for your independent projects! If we
+move faster than the above schedule, we'll cover selected additional
+topics. If there's significant class interest, we can skip some of
+chapters 1-8 in order to cover additional topics.
 
 Even though this is not a lab class, it's grounded in the physical
 world, and we will collaborate with a lab at South Dakota State
