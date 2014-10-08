@@ -13,6 +13,8 @@ Introduction To Biophysics (PHYS 225/BIOL 225) (3 credits, SI non-lab, A-QR)
 
   1. Add accommodations, plagiarism policy, etc.
 
+  1. Consider adding [CHARMMing](http://www.charmming.org) custom lessons
+
 When people ask me what it means to be a Biophysicist, my stock answer
 is "I like to think like a physicist, but am fascinated by problems
 that come from biology." **Introduction to Biophysics** is an
