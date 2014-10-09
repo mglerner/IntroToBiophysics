@@ -15,6 +15,14 @@ Lee Woodcock
 
 Phil Nelson
 
+Jeff Wereszczynski
+
+J.C. Gumbart
+
+Long sequence at Duke
+
+Michigan
+
 ## For Non-majors/GenEd
 
 ### The Physics of Life
