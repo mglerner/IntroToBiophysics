@@ -13,6 +13,8 @@ Introduction To Biophysics (PHYS 225/BIOL 225) (3 credits, SI non-lab, A-QR)
 
   1. Add accommodations, plagiarism policy, etc.
 
+  1. Consider adding [CHARMMing](http://www.charmming.org) custom lessons
+
 When people ask me what it means to be a Biophysicist, my stock answer
 is "I like to think like a physicist, but am fascinated by problems
 that come from biology." **Introduction to Biophysics** is an
@@ -283,7 +285,7 @@ website has a nice set of pointers to other resources.
 |03/17|*Spring Break*|*Spring Break*||
 |03/24|Extra material on free energy in biology|7.1-7.2|HW #9 (Ch. 7)|
 |03/31|Hand out **exam 2**, 7.3, research **proposals due**|7.4|HW #10 (Ch. 7)|
-|04/07|7.5, more MD|8.1-8.2|HW #11 (Ch. 7-8)|
+|04/07|7.5, more MD|8.1-8.2, research **rough drafts due**|HW #11 (Ch. 7-8)|
 |04/14|8.3-8.4|8.5-8.6|HW #12 (Ch. 8)|
 |04/21|Protein folding (instructor provided), FoldIt|Potential guest lectures on QM and QM/MM|Research paper due|
 |04/28|Presentations|Presentations||
