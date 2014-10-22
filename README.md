@@ -431,6 +431,12 @@ first choice for your own projects). The above ballpark time estimates
 are just rough estimates, so it's possible that we'll cover all or
 none of these.
 
+#### The Biophysics of Modern Cuisine
+
+ * [From Material Science to Avant-Garde Cuisine.
+ The Art of Shaping Liquids into Spheres](http://pubs.acs.org/doi/full/10.1021/jp508841p)
+ (Christophe Chipot, spheroids, the art of shaping liquids into spheres)
+
 #### DNA cooperativity, stiffness and stretching ####
 
 The first four sections of chapter 9 give us some basic polymer
