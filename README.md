@@ -287,7 +287,7 @@ website has a nice set of pointers to other resources.
 |03/31|Hand out **exam 2**, 7.3, research **proposals due**|7.4|HW #10 (Ch. 7)|
 |04/07|7.5, more MD|8.1-8.2, research **rough drafts due**|HW #11 (Ch. 7-8)|
 |04/14|8.3-8.4|8.5-8.6|HW #12 (Ch. 8)|
-|04/21|Protein folding (instructor provided), FoldIt|Potential guest lectures on QM and QM/MM|Research paper due|
+|04/21|Protein folding (instructor provided), [FoldIt](http://fold.it/portal/), [Molecular Flipbook](https://www.molecularflipbook.org/)|Potential guest lectures on QM and QM/MM|Research paper due|
 |04/28|Presentations|Presentations||
 |05/05|Reading day|Go home!||
 
@@ -436,6 +436,10 @@ none of these.
  * [From Material Science to Avant-Garde Cuisine.
  The Art of Shaping Liquids into Spheres](http://pubs.acs.org/doi/full/10.1021/jp508841p)
  (Christophe Chipot, spheroids, the art of shaping liquids into spheres)
+
+#### Geometry of Malaria
+
+  * [Recent Phys Rev E article](http://journals.aps.org/pre/abstract/10.1103/PhysRevE.90.042720)
 
 #### DNA cooperativity, stiffness and stretching ####
 
