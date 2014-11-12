@@ -3,6 +3,8 @@ Introduction To Biophysics (PHYS 225/BIOL 225) (3 credits, SI non-lab, A-QR)
 
 **TODO**
 
+  1. Add [CHARMMing][CHARMMing] custom lessons
+
   1. revamp for two 80 minute class per week, rather than three 50
      minute classes.
 
@@ -13,7 +15,6 @@ Introduction To Biophysics (PHYS 225/BIOL 225) (3 credits, SI non-lab, A-QR)
 
   1. Add accommodations, plagiarism policy, etc.
 
-  1. Consider adding [CHARMMing](http://www.charmming.org) custom lessons
 
 When people ask me what it means to be a Biophysicist, my stock answer
 is "I like to think like a physicist, but am fascinated by problems
@@ -121,6 +122,8 @@ website has a nice set of pointers to other resources.
 [PMLS]: http://www.physics.upenn.edu/biophys/PMLS/index.html "Physical Models of Living Systems"
 
 [WhatIsLife]: http://whatislife.stanford.edu/LoCo_files/What-is-Life.pdf "What is Life?"
+
+[CHARMMing]: http://www.charmming.org "CHARMMing"
 
 
 
@@ -287,7 +290,7 @@ website has a nice set of pointers to other resources.
 |03/31|Hand out **exam 2**, 7.3, research **proposals due**|7.4|HW #10 (Ch. 7)|
 |04/07|7.5, more MD|8.1-8.2, research **rough drafts due**|HW #11 (Ch. 7-8)|
 |04/14|8.3-8.4|8.5-8.6|HW #12 (Ch. 8)|
-|04/21|Protein folding (instructor provided), [FoldIt](http://fold.it/portal/), [Molecular Flipbook](https://www.molecularflipbook.org/)|Potential guest lectures on QM and QM/MM|Research paper due|
+|04/21|Protein folding (instructor provided), [FoldIt](http://fold.it/portal/), [CHARMMing][CHARMMing], [Molecular Flipbook](https://www.molecularflipbook.org/)|Potential guest lectures on QM and QM/MM|Research paper due|
 |04/28|Presentations|Presentations||
 |05/05|Reading day|Go home!||
 
@@ -414,6 +417,12 @@ online-tools for poking at this problem. Ballpark estimate: 3 days.
  * [Protein Folding Dynamics in the Cell](http://pubs.acs.org/doi/abs/10.1021/jp501866v)
  * [Fold.it tutorials](http://fold.it/portal/)
 
+Three articles from a recent PNAS issue (note that PNAS has a great interface where you can get a combined PDF + Supplemental Info in one click!).
+
+ * [A simple theoretical model goes a long way in explaining complex behavior in protein folding](http://www.pnas.org/content/111/45/15863.full)
+ * [The nature of protein folding pathways](http://www.pnas.org/content/111/45/15873.full)
+ * [Folding pathway of a multidomain protein depends on its topology of domain connectivity](http://www.pnas.org/content/111/45/15969.full)
+
 ### Elastic Network Models ###
 
 Despite our earlier focus on complex physics, it turns out that models
@@ -440,6 +449,10 @@ none of these.
 #### Geometry of Malaria
 
   * [Recent Phys Rev E article](http://journals.aps.org/pre/abstract/10.1103/PhysRevE.90.042720)
+
+#### Beer's Law for Blood Flow
+
+  * [Modified Beer-Lambert law for blood flow](http://www.opticsinfobase.org/boe/fulltext.cfm?uri=boe-5-11-4053&id=303482)
 
 #### DNA cooperativity, stiffness and stretching ####
 
@@ -471,6 +484,10 @@ state-of-the-art simulations on our very own campus supercomputing
 clusters. This may get folded (ha! ha!)
 into the Protein Folding section. Ballpark estimate: 2 days.
 
+How do we evaluate the new breed of *long* MD simulations?
+
+ * [Benchmarking all-atom simulations using hydrogen exchange](http://www.pnas.org/content/111/45/15975.full)
+
 #### Quantum Mechanical Simulations ####
 
 Molecular dynamics allows us to look at an amazing variety of
@@ -495,6 +512,21 @@ using [Brian](http://briansimulator.org/), and
 [IPython](http://nbviewer.ipython.org/gist/coderforlife/6473989)
 [notebooks](http://nbviewer.ipython.org/github/forrestsheldon/neurosci/blob/master/Stim_Cancellation_in_Cerrebellum.ipynb)
 depending on your level of comfort/experience.
+
+#### Proteins diffusing along DNA ####
+
+[DNA Recognition Process of the Lactose Repressor Protein Studied via Metadynamics and Umbrella Sampling Simulations](http://pubs.acs.org/doi/abs/10.1021/jp505885j)
+
+#### Scaling laws and size limits
+
+Lots of information in [Physical Biology of the Cell][PBoC]. Also some articles from a recent PNAS
+
+ * [Scaling laws governing stochastic growth and division of single bacterial cells](http://www.pnas.org/content/111/45/15912.full)
+ * [Size limits of self-assembled colloidal structures made using specific interactions](http://www.pnas.org/content/111/45/15918.full)
+
+#### Methyltransferases work via electrostatics
+
+[Methyltransferases do not work by compression, cratic, or desolvation effects, but by electrostatic preorganization](http://onlinelibrary.wiley.com/doi/10.1002/prot.24717/abstract)
 
 #### Structure and dynamics of cell membranes #######
 
