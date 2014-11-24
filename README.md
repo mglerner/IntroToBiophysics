@@ -45,13 +45,16 @@ quantitative biological intuition across that range of problems.
 
 In addition to specific content-related learning objectives, the
 course has several non-content, "course-scale" learning
-objectives. During this course, successful students will
+objectives.
 
-  * Develop problem solving skills and the ability to connect
-    concepts between physics, biology, chemistry and mathematics to
-    understand how biological systems function.
-  * Use simple physical models to provide quantitative insight into
-    biological systems.
+  * Given a biological system and a physical model, students will be
+    able to adapt the model to the system through quantitative
+    analysis.
+  * Given a biological system, students will be able to name relevant
+    physical models.
+
+Old goals, editing this now.
+
   * Gain exposure to the important questions in the modern field of
     molecular biophysics and evaluate current research on a system
     of their choice.
@@ -59,6 +62,12 @@ objectives. During this course, successful students will
     ability to justify and explain approches and solutions to
     problems, either in written or oral form; be able to articulate
     big ideas from each content area.
+  * Develop problem solving skills and the ability to connect
+    concepts between physics, biology, chemistry and mathematics to
+    understand how biological systems function.
+  * Use simple physical models to provide quantitative insight into
+    biological systems.
+
 
 ## Textbook(s) ##
 
