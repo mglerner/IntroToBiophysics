@@ -15,6 +15,8 @@ Introduction To Biophysics (PHYS 225/BIOL 225) (3 credits, SI non-lab, A-QR)
 
   1. Add accommodations, plagiarism policy, etc.
 
+  1. Refer frequently to [Physical Lens on the Cell][PLotC].
+
 
 When people ask me what it means to be a Biophysicist, my stock answer
 is "I like to think like a physicist, but am fascinated by problems
@@ -133,6 +135,8 @@ website has a nice set of pointers to other resources.
 [WhatIsLife]: http://whatislife.stanford.edu/LoCo_files/What-is-Life.pdf "What is Life?"
 
 [CHARMMing]: http://www.charmming.org "CHARMMing"
+
+[PLotC]: http://physicallensonthecell.org/ "Physical Lens on the Cell -- Dan Zuckerman"
 
 
 
