@@ -435,6 +435,7 @@ Three articles from a recent PNAS issue (note that PNAS has a great interface wh
  * [A simple theoretical model goes a long way in explaining complex behavior in protein folding](http://www.pnas.org/content/111/45/15863.full)
  * [The nature of protein folding pathways](http://www.pnas.org/content/111/45/15873.full)
  * [Folding pathway of a multidomain protein depends on its topology of domain connectivity](http://www.pnas.org/content/111/45/15969.full)
+ * [Are Protein Folding Intermediates the Evolutionary Consequence of Functional Constraints?](http://pubs.acs.org/doi/abs/10.1021/jp510342m)
 
 ### Elastic Network Models ###
 
@@ -540,6 +541,14 @@ Lots of information in [Physical Biology of the Cell][PBoC]. Also some articles 
 #### Methyltransferases work via electrostatics
 
 [Methyltransferases do not work by compression, cratic, or desolvation effects, but by electrostatic preorganization](http://onlinelibrary.wiley.com/doi/10.1002/prot.24717/abstract)
+
+#### Coloumb repulsion
+
+[http://pubs.acs.org/doi/abs/10.1021/jp508263a](http://pubs.acs.org/doi/abs/10.1021/jp508263a)
+
+#### Chemoinformatics
+
+This is more chemoinformatics than biophysics, but wow, check out [this fantastic IPython Notebook](http://nbviewer.ipython.org/github/BenderGroup/IPythonNotebooks/blob/master/rl_presentation_02_2014.ipynb?create=1) from the Bender Group:
 
 #### Structure and dynamics of cell membranes #######
 
