@@ -3,8 +3,6 @@ Introduction To Biophysics (PHYS 225/BIOL 225) (3 credits, SI non-lab, A-QR)
 
 **TODO**
 
-  1. Add [CHARMMing][CHARMMing] custom lessons
-
   1. decide if Demian should cover ENM (benefit: dead simple physical
      model + a touch of linear algebra = deep insight) or QM/MM
      (benefit: MGL does MD, LW does QM+DFT, DR does QM/MM is a really
@@ -66,6 +64,8 @@ The list of learning proficiencies is much larger. Some broad examples include
     connect concepts between physics, biology, chemistry and
     mathematics to understand how biological systems function.
 
+
+
 ## Textbook(s) ##
 
 The primary (and *required*) textbook will be [Nelson][BiolPhys]. It's
@@ -82,7 +82,10 @@ excellent books that I considered using:
    from more of a biological perspective, and should be an excellent
    resource for many of you.
 
-We'll use these as significant secondary resources. We'll use PBoC's
+We'll use these as significant secondary resources. **All three of
+these books are available on reserve in Wildman Science Library**
+
+We'll use PBoC's
 [companion site](http://microsite.garlandscience.com/pboc2/).
 
 Phil Nelson has some great material on his
@@ -134,7 +137,6 @@ website has a nice set of pointers to other resources.
 [PLotC]: http://physicallensonthecell.org/ "Physical Lens on the Cell -- Dan Zuckerman"
 
 
-
 ## Prerequisites ##
 
 * **One semester of calculus-based physics is required.** We'll be
@@ -176,6 +178,11 @@ website has a nice set of pointers to other resources.
   discuss working through the bootcamp lessons (or the
   [Code Academy][CodeAcademy] lessons) independently.
 
+Depending on the class interest in computational chemistry
+specifically, you may choose to have me create custom
+[CHARMMing][CHARMMing] lessons.
+
+
 [IPyNBG]: https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks "IPython Notebook Example Gallery"
 
 [CodeAcademy]: http://www.codecademy.com/ "Code Academy"
@@ -185,14 +192,14 @@ website has a nice set of pointers to other resources.
 
 |Assignment | points |
 |:----------|-------:|
-| Reading and moodle participation | 10% |
+| Reading and moodle/Piazza participation | 10% |
 | Clicker questions and class participation | 5% |
 | Research Project | 15% |
 | Homework | 35% |
 | Exams | 35% |
 
 
-  * Reading assignments and Moodle participation: 10%. This course
+  * Reading assignments and Moodle/Piazza participation: 10%. This course
     covers a fantastically wide variety of topics, and students come
     from a wide variety of backgrounds with a corresponding variety of
     interests. All of that means that we'll want to have great
@@ -200,8 +207,8 @@ website has a nice set of pointers to other resources.
     parts. We can only do that if you've done the reading ahead of
     time. To ensure that you're prepared for class, and to ensure that
     I'll be able to focus on the parts that are giving you the most
-    trouble, you will be **required to post to the Moodle site by 8PM
-    the night before each class**. Your post should include what you
+    trouble, you will be **required to post to the Moodle/Piazza site by 9AM
+    the day of each class**. Your post should include what you
     thought was most interesting and most important from the
     reading. You should also be sure to mention any parts of the
     reading that were particularly hard to understand.
