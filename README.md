@@ -290,19 +290,19 @@ specifically, you may choose to have me create custom
 | **Week of** | **Tuesday** | **Friday** | **Assignments** |
 |:-----------:|:------------|:-----------|:----------------|
 |01/13|*No class*|1.1-1.4|HW #0: 1. Click around on the [Physical Lens on the Cell][PLotC], post the most interesting thing you find on Moodle/Piazza; 2. install the Anaconda Python Distribution on your computer of choice (the SciLi Macs have it), and work through the first three [Software Carpentry Python Lessons](http://software-carpentry.org/v5/novice/python/index.html). I'm happy to help with setting up your computer! Due next Tuesday before class.|
-|01/20|1.5, 2.1-2.2|2.3, 3.1|HW #1 (Ch. 1-2) 1.3, 1.4, 1.6, 1.7, 2.1, 2.2 (print three of your favorites), 2.5 (What is the size of the micelle?). Chapter 1 problems due before Friday's class; Chapter 2 problems due before next Tuesday's class.|
-|01/27|3.2-3.3|4.1|HW #2 (Ch. 3)|
-|02/03|4.2-4.3|4.4-4.5|HW #3 (Ch. 4)|
-|02/10|4.6|Molecular dynamics, diffusion in membranes (instructor-provided materials)|HW #5 (Ch. 4, MD)|
+|01/20|1.5, 2.1-2.2|2.3, 3.1|HW #1: (Ch. 1-2) 1.3, 1.4, 1.6, 1.7, 2.1, 2.2 (print three of your favorites), 2.5 (What is the size of the micelle?). Chapter 1 problems due before Friday's class; Chapter 2 problems due before next Tuesday's class.|
+|01/27|3.2-3.3|4.1|HW #2: (Ch. 3)|
+|02/03|4.2-4.3|4.4-4.5|HW #3: (Ch. 4)|
+|02/10|4.6|Molecular dynamics, diffusion in membranes (instructor-provided materials)|HW #5: (Ch. 4, MD)|
 |02/17|Hand out **exam 1**, in-class lab|*Early semester break*|Finish lab writeup|
-|02/24|5.1-5.2|5.2(cont)-5.3|HW #6 (Ch. 5)|
-|03/03|5.3(cont)-5.4, potential guest lecture on Hodgkin-Huxley (conceptually, after HW from 4.6) |6.1-6.3|HW #7 (Ch. 5)|
-|03/10|6.4-6.5|6.6-6.7|HW #8 (Ch. 6)|
+|02/24|5.1-5.2|5.2(cont)-5.3|HW #6: (Ch. 5)|
+|03/03|5.3(cont)-5.4, potential guest lecture on Hodgkin-Huxley (conceptually, after HW from 4.6) |6.1-6.3|HW #7: (Ch. 5)|
+|03/10|6.4-6.5|6.6-6.7|HW #8: (Ch. 6)|
 |03/17|*Spring Break*|*Spring Break*||
-|03/24|Extra material on free energy in biology|7.1-7.2|HW #9 (Ch. 7)|
-|03/31|Hand out **exam 2**, 7.3, research **proposals due**|7.4|HW #10 (Ch. 7)|
-|04/07|7.5, more MD|8.1-8.2, research **rough drafts due**|HW #11 (Ch. 7-8)|
-|04/14|8.3-8.4|8.5-8.6|HW #12 (Ch. 8)|
+|03/24|Extra material on free energy in biology|7.1-7.2|HW #9: (Ch. 7)|
+|03/31|Hand out **exam 2**, 7.3, research **proposals due**|7.4|HW #10: (Ch. 7)|
+|04/07|7.5, more MD|8.1-8.2, research **rough drafts due**|HW #11: (Ch. 7-8)|
+|04/14|8.3-8.4|8.5-8.6|HW #12: (Ch. 8)|
 |04/21|Protein folding (instructor provided), [FoldIt](http://fold.it/portal/), [CHARMMing][CHARMMing], [Molecular Flipbook](https://www.molecularflipbook.org/)|Potential guest lectures on QM and QM/MM|Research paper due|
 |04/28|Presentations|Presentations||
 |05/05|Reading day|Go home!||
