@@ -5,9 +5,6 @@ Introduction To Biophysics (PHYS 225/BIOL 225) (3 credits, SI non-lab, A-QR)
 
   1. Add [CHARMMing][CHARMMing] custom lessons
 
-  1. revamp for two 80 minute class per week, rather than three 50
-     minute classes.
-
   1. decide if Demian should cover ENM (benefit: dead simple physical
      model + a touch of linear algebra = deep insight) or QM/MM
      (benefit: MGL does MD, LW does QM+DFT, DR does QM/MM is a really
@@ -47,28 +44,28 @@ quantitative biological intuition across that range of problems.
 
 In addition to specific content-related learning objectives, the
 course has several non-content, "course-scale" learning
-objectives.
+objectives. You can see the evolution of one of those goals
+[here](http://www.mglerner.com/blog/?p=45).
 
+  * Given a biological system, students will be able to predict relevant
+    physical models.
+    * Students will mature in knowledge organization and
+      communication, gaining in ability to justify and explain
+      approches and solutions to problems, both in written or oral
+      form; be able to articulate big ideas from each content area.
   * Given a biological system and a physical model, students will be
     able to adapt the model to the system through quantitative
     analysis.
-  * Given a biological system, students will be able to name relevant
-    physical models.
-
-Old goals, editing this now.
-
-  * Gain exposure to the important questions in the modern field of
-    molecular biophysics and evaluate current research on a system
-    of their choice.
-  * Mature in knowledge organization and communication, gaining in
-    ability to justify and explain approches and solutions to
-    problems, either in written or oral form; be able to articulate
-    big ideas from each content area.
-  * Develop problem solving skills and the ability to connect
-    concepts between physics, biology, chemistry and mathematics to
-    understand how biological systems function.
-  * Use simple physical models to provide quantitative insight into
-    biological systems.
+    * Students will develop problem solving skills and the ability to
+      connect concepts between physics, biology, chemistry and
+      mathematics to understand how biological systems function.
+    * Students will mature in knowledge organization and
+      communication, gaining in ability to justify and explain
+      approches and solutions to problems, both in written or oral
+      form; be able to articulate big ideas from each content area.
+  * Students will gain exposure to the important questions in the
+    modern field of molecular biophysics, and evaluate current
+    research on a system of their choice.
 
 
 ## Textbook(s) ##
