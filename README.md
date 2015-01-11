@@ -49,24 +49,22 @@ objectives. You can see the evolution of one of those goals
 
   * Given a biological system, students will be able to predict relevant
     physical models.
-    * Students will mature in knowledge organization and
-      communication, gaining in ability to justify and explain
-      approches and solutions to problems, both in written or oral
-      form; be able to articulate big ideas from each content area.
   * Given a biological system and a physical model, students will be
     able to adapt the model to the system through quantitative
     analysis.
-    * Students will develop problem solving skills and the ability to
-      connect concepts between physics, biology, chemistry and
-      mathematics to understand how biological systems function.
-    * Students will mature in knowledge organization and
-      communication, gaining in ability to justify and explain
-      approches and solutions to problems, both in written or oral
-      form; be able to articulate big ideas from each content area.
-  * Students will gain exposure to the important questions in the
+  * Students will gain exposure to important questions in the
     modern field of molecular biophysics, and evaluate current
     research on a system of their choice.
 
+The list of learning proficiencies is much larger. Some broad examples include
+
+  * Students will mature in knowledge organization and
+    communication, gaining in ability to justify and explain
+    approches and solutions to problems, both in written or oral
+    form; be able to articulate big ideas from each content area.
+  * Students will develop problem solving skills and the ability to
+    connect concepts between physics, biology, chemistry and
+    mathematics to understand how biological systems function.
 
 ## Textbook(s) ##
 
