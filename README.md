@@ -93,7 +93,9 @@ We will not cover the whole book; see below for a list of topics. Other people
 have taught similar courses, and some have been kind enough to put
 their course materials online
 (e.g. [SFU](http://www.sfu.ca/phys/347/),
-[Cambridge](http://www.damtp.cam.ac.uk/user/gold/teaching_biophysicsIII.html)).
+[Cambridge](http://www.damtp.cam.ac.uk/user/gold/teaching_biophysicsIII.html),
+[UCSB](http://web.physics.ucsb.edu/~phys150/)
+).
 
 For more supplemental information, we'll use Phil Nelson's
 (in-progress) book [Physical Models of Living Systems][PMLS], the
