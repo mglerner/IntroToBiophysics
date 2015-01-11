@@ -10,8 +10,6 @@ Introduction To Biophysics (PHYS 225/BIOL 225) (3 credits, SI non-lab, A-QR)
 
   1. Add accommodations, plagiarism policy, etc.
 
-  1. Refer frequently to [Physical Lens on the Cell][PLotC].
-
 
 When people ask me what it means to be a Biophysicist, my stock answer
 is "I like to think like a physicist, but am fascinated by problems
@@ -165,17 +163,17 @@ website has a nice set of pointers to other resources.
   tweak and share computational models. We'll be *using* and playing
   with models that I create throughout the course. However, you have a
   great opportunity to learn how to *create* these things yourself:
-  Earlham is hosting a two-day Python Bootcamp, led by
+  Earlham is hosting a two-day Python Workshop, led by
   [Software Carpentry](http://software-carpentry.org/). It'll be
   hosted on Earlham's campus, January 11-12, 2015 (that's the
   Sunday/Monday before Spring classes, so housing should not be a
   problem). The ability to build and tweak simple computational models
   *greatly* expands the types of questions you can ask (and answer!)
-  by yourself. This two-day bootcamp will teach you all the Python you
+  by yourself. This two-day workshop will teach you all the Python you
   need to get started right away, and it's **completely free**! To be
   clear: this is *recommended* but **not required**.  If you're
-  interested, but absolutely can't make it to the bootcamp, you can
-  discuss working through the bootcamp lessons (or the
+  interested, but absolutely can't make it to the workshop , you can
+  discuss working through the workshop lessons (or the
   [Code Academy][CodeAcademy] lessons) independently.
 
 Depending on the class interest in computational chemistry
@@ -291,7 +289,7 @@ specifically, you may choose to have me create custom
 
 | **Week of** | **Tuesday** | **Friday** | **Assignments** |
 |:-----------:|:------------|:-----------|:----------------|
-|01/13|*No class*|1.1-1.4|No homework. Whee!|
+|01/13|*No class*|1.1-1.4|1. Click around on the [Physical Lens on the Cell][PLotC], post the most interesting thing you find on Moodle/Piazza; 2. install the Anaconda Python Distribution on your computer of choice (the SciLi Macs have it), and work through the first three [Software Carpentry Python Lessons](http://software-carpentry.org/v5/novice/python/index.html). I'm happy to help with setting up your computer!|
 |01/20|1.5, 2.1-2.2|2.3, 3.1|HW #1 (Ch. 1-2)|
 |01/27|3.2-3.3|4.1|HW #2 (Ch. 3)|
 |02/03|4.2-4.3|4.4-4.5|HW #3 (Ch. 4)|
