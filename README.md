@@ -3,19 +3,12 @@ Introduction To Biophysics (PHYS 225/BIOL 225) (3 credits, SI non-lab, A-QR)
 
 **TODO**
 
-  1. Add [CHARMMing][CHARMMing] custom lessons
-
-  1. revamp for two 80 minute class per week, rather than three 50
-     minute classes.
-
   1. decide if Demian should cover ENM (benefit: dead simple physical
      model + a touch of linear algebra = deep insight) or QM/MM
      (benefit: MGL does MD, LW does QM+DFT, DR does QM/MM is a really
      nice sequence)
 
   1. Add accommodations, plagiarism policy, etc.
-
-  1. Refer frequently to [Physical Lens on the Cell][PLotC].
 
 
 When people ask me what it means to be a Biophysicist, my stock answer
@@ -47,28 +40,28 @@ quantitative biological intuition across that range of problems.
 
 In addition to specific content-related learning objectives, the
 course has several non-content, "course-scale" learning
-objectives.
+objectives. You can see the evolution of one of those goals
+[here](http://www.mglerner.com/blog/?p=45).
 
+  * Given a biological system, students will be able to predict relevant
+    physical models.
   * Given a biological system and a physical model, students will be
     able to adapt the model to the system through quantitative
     analysis.
-  * Given a biological system, students will be able to name relevant
-    physical models.
+  * Students will gain exposure to important questions in the
+    modern field of molecular biophysics, and evaluate current
+    research on a system of their choice.
 
-Old goals, editing this now.
+The list of learning proficiencies is much larger. Some broad examples include
 
-  * Gain exposure to the important questions in the modern field of
-    molecular biophysics and evaluate current research on a system
-    of their choice.
-  * Mature in knowledge organization and communication, gaining in
-    ability to justify and explain approches and solutions to
-    problems, either in written or oral form; be able to articulate
-    big ideas from each content area.
-  * Develop problem solving skills and the ability to connect
-    concepts between physics, biology, chemistry and mathematics to
-    understand how biological systems function.
-  * Use simple physical models to provide quantitative insight into
-    biological systems.
+  * Students will mature in knowledge organization and
+    communication, gaining in ability to justify and explain
+    approches and solutions to problems, both in written or oral
+    form; be able to articulate big ideas from each content area.
+  * Students will develop problem solving skills and the ability to
+    connect concepts between physics, biology, chemistry and
+    mathematics to understand how biological systems function.
+
 
 
 ## Textbook(s) ##
@@ -87,7 +80,10 @@ excellent books that I considered using:
    from more of a biological perspective, and should be an excellent
    resource for many of you.
 
-We'll use these as significant secondary resources. We'll use PBoC's
+We'll use these as significant secondary resources. **All three of
+these books are available on reserve in Wildman Science Library**
+
+We'll use PBoC's
 [companion site](http://microsite.garlandscience.com/pboc2/).
 
 Phil Nelson has some great material on his
@@ -97,7 +93,9 @@ We will not cover the whole book; see below for a list of topics. Other people
 have taught similar courses, and some have been kind enough to put
 their course materials online
 (e.g. [SFU](http://www.sfu.ca/phys/347/),
-[Cambridge](http://www.damtp.cam.ac.uk/user/gold/teaching_biophysicsIII.html)).
+[Cambridge](http://www.damtp.cam.ac.uk/user/gold/teaching_biophysicsIII.html),
+[UCSB](http://web.physics.ucsb.edu/~phys150/)
+).
 
 For more supplemental information, we'll use Phil Nelson's
 (in-progress) book [Physical Models of Living Systems][PMLS], the
@@ -139,7 +137,6 @@ website has a nice set of pointers to other resources.
 [PLotC]: http://physicallensonthecell.org/ "Physical Lens on the Cell -- Dan Zuckerman"
 
 
-
 ## Prerequisites ##
 
 * **One semester of calculus-based physics is required.** We'll be
@@ -168,18 +165,23 @@ website has a nice set of pointers to other resources.
   tweak and share computational models. We'll be *using* and playing
   with models that I create throughout the course. However, you have a
   great opportunity to learn how to *create* these things yourself:
-  Earlham is hosting a two-day Python Bootcamp, led by
+  Earlham is hosting a two-day Python Workshop, led by
   [Software Carpentry](http://software-carpentry.org/). It'll be
   hosted on Earlham's campus, January 11-12, 2015 (that's the
   Sunday/Monday before Spring classes, so housing should not be a
   problem). The ability to build and tweak simple computational models
   *greatly* expands the types of questions you can ask (and answer!)
-  by yourself. This two-day bootcamp will teach you all the Python you
+  by yourself. This two-day workshop will teach you all the Python you
   need to get started right away, and it's **completely free**! To be
   clear: this is *recommended* but **not required**.  If you're
-  interested, but absolutely can't make it to the bootcamp, you can
-  discuss working through the bootcamp lessons (or the
+  interested, but absolutely can't make it to the workshop , you can
+  discuss working through the workshop lessons (or the
   [Code Academy][CodeAcademy] lessons) independently.
+
+Depending on the class interest in computational chemistry
+specifically, you may choose to have me create custom
+[CHARMMing][CHARMMing] lessons.
+
 
 [IPyNBG]: https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks "IPython Notebook Example Gallery"
 
@@ -190,14 +192,14 @@ website has a nice set of pointers to other resources.
 
 |Assignment | points |
 |:----------|-------:|
-| Reading and moodle participation | 10% |
+| Reading and moodle/Piazza participation | 10% |
 | Clicker questions and class participation | 5% |
 | Research Project | 15% |
 | Homework | 35% |
 | Exams | 35% |
 
 
-  * Reading assignments and Moodle participation: 10%. This course
+  * Reading assignments and Moodle/Piazza participation: 10%. This course
     covers a fantastically wide variety of topics, and students come
     from a wide variety of backgrounds with a corresponding variety of
     interests. All of that means that we'll want to have great
@@ -205,8 +207,8 @@ website has a nice set of pointers to other resources.
     parts. We can only do that if you've done the reading ahead of
     time. To ensure that you're prepared for class, and to ensure that
     I'll be able to focus on the parts that are giving you the most
-    trouble, you will be **required to post to the Moodle site by 8PM
-    the night before each class**. Your post should include what you
+    trouble, you will be **required to post to the Moodle/Piazza site by 9AM
+    the day of each class**. Your post should include what you
     thought was most interesting and most important from the
     reading. You should also be sure to mention any parts of the
     reading that were particularly hard to understand.
@@ -289,20 +291,20 @@ website has a nice set of pointers to other resources.
 
 | **Week of** | **Tuesday** | **Friday** | **Assignments** |
 |:-----------:|:------------|:-----------|:----------------|
-|01/13|*No class*|1.1-1.4|No homework. Whee!|
-|01/20|1.5, 2.1-2.3|3.1 IPython Notebook from class [here](IntroProbability/Gaussian.ipynb)|HW #1 (Ch. 1-2)|
-|01/27|3.2-3.3|4.1|HW #2 (Ch. 3)|
-|02/03|4.2-4.3|4.4-4.5|HW #3 (Ch. 4)|
-|02/10|4.6|Molecular dynamics, diffusion in membranes (instructor-provided materials)|HW #5 (Ch. 4, MD)|
+|01/13|*No class*|1.1-1.4|HW #0: 1. Click around on the [Physical Lens on the Cell][PLotC], post the most interesting thing you find on Moodle/Piazza; 2. install the Anaconda Python Distribution on your computer of choice (the SciLi Macs have it), and work through the first three [Software Carpentry Python Lessons](http://software-carpentry.org/v5/novice/python/index.html). I'm happy to help with setting up your computer! Due next Tuesday before class.|
+|01/20|1.5, 2.1-2.3|3.1 IPython Notebook from class [here](IntroProbability/Gaussian.ipynb)|HW #1: (Ch. 1-2) 1.3, 1.4, 1.6, 1.7, 2.1, 2.2 (print three of your favorites), 2.5 (What is the size of the micelle?). Chapter 1 problems due before Friday's class; Chapter 2 problems due before next Tuesday's class. **For one of the Chapter 1 problems, do your calculations in an IPython Notebook, and email me your .ipynb file**|
+|01/27|3.2-3.3|4.1|HW #2: (Ch. 3)|
+|02/03|4.2-4.3|4.4-4.5|HW #3: (Ch. 4)|
+|02/10|4.6|Molecular dynamics, diffusion in membranes (instructor-provided materials)|HW #5: (Ch. 4, MD)|
 |02/17|Hand out **exam 1**, in-class lab|*Early semester break*|Finish lab writeup|
-|02/24|5.1-5.2|5.2(cont)-5.3|HW #6 (Ch. 5)|
-|03/03|5.3(cont)-5.4, potential guest lecture on Hodgkin-Huxley (conceptually, after HW from 4.6) |6.1-6.3|HW #7 (Ch. 5)|
-|03/10|6.4-6.5|6.6-6.7|HW #8 (Ch. 6)|
+|02/24|5.1-5.2|5.2(cont)-5.3|HW #6: (Ch. 5)|
+|03/03|5.3(cont)-5.4, potential guest lecture on Hodgkin-Huxley (conceptually, after HW from 4.6) |6.1-6.3|HW #7: (Ch. 5)|
+|03/10|6.4-6.5|6.6-6.7|HW #8: (Ch. 6)|
 |03/17|*Spring Break*|*Spring Break*||
-|03/24|Extra material on free energy in biology|7.1-7.2|HW #9 (Ch. 7)|
-|03/31|Hand out **exam 2**, 7.3, research **proposals due**|7.4|HW #10 (Ch. 7)|
-|04/07|7.5, more MD|8.1-8.2, research **rough drafts due**|HW #11 (Ch. 7-8)|
-|04/14|8.3-8.4|8.5-8.6|HW #12 (Ch. 8)|
+|03/24|Extra material on free energy in biology|7.1-7.2|HW #9: (Ch. 7)|
+|03/31|Hand out **exam 2**, 7.3, research **proposals due**|7.4|HW #10: (Ch. 7)|
+|04/07|7.5, more MD|8.1-8.2, research **rough drafts due**|HW #11: (Ch. 7-8)|
+|04/14|8.3-8.4|8.5-8.6|HW #12: (Ch. 8)|
 |04/21|Protein folding (instructor provided), [FoldIt](http://fold.it/portal/), [CHARMMing][CHARMMing], [Molecular Flipbook](https://www.molecularflipbook.org/)|Potential guest lectures on QM and QM/MM|Research paper due|
 |04/28|Presentations|Presentations||
 |05/05|Reading day|Go home!||
