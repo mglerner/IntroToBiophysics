@@ -1,0 +1,241 @@
+%% Document setup for Syllabus and HW
+
+\textwidth=7in
+\textheight=9.5in
+\topmargin=-1in
+\headheight=0in
+\headsep=.5in
+\hoffset  -.85in
+
+\usepackage{amsmath} % for \text{}
+\usepackage{amsfonts} % For \text{}
+\usepackage{amssymb} % For \text{}
+\usepackage{amsthm}
+\usepackage{bigints}
+
+%% Stolen from Nathan Baker
+\newcommand{\erf}{{\mathrm{erf}}}
+\newcommand{\erfc}{{\mathrm{erfc}}}
+\newcommand{\erfi}{{\mathrm{erfi}}}
+\newcommand{\argh}{{\mathrm{arg}}}
+\newcommand{\atan}{{\mathrm{atan}}}
+\newcommand{\acos}{{\mathrm{acos}}}
+\newcommand{\asin}{{\mathrm{asin}}}
+\newcommand{\mat}[1]{\,\underline{\underline{#1}}\,}
+\newcommand{\abs}[1]{\left| #1 \right|}
+\newcommand{\norm}[1]{\left\| #1 \right\|}
+\newcommand{\order}[1]{{\mathcal{O}} \left( #1 \right)}
+\newcommand{\op}[1]{{\mathcal{#1}}}
+\newcommand{\myfile}[1]{\texttt{#1}}
+\newcommand{\myvar}[1]{\textsf{#1}}
+\newcommand{\mean}[1]{{\left\langle {#1} \right\rangle}}
+
+% The master boolean -- set this to "masterfalse" or "mastertrue"
+%\newif\ifmaster \masterfalse
+\newif\ifmaster \mastertrue
+
+\newcommand{\hidesolution}[1]{ \ifmaster { {#1} } \else { {Go to class.} } \fi }
+\newcommand{\hideanswer}[1]{ \ifmaster { #1 } \else {} \fi }
+\newcommand{\solution}[1]{ \begin{proof}[Solution] \hidesolution{#1} \end{proof} }
+\newcommand{\answer}[1]{ \hideanswer{\begin{proof}[Answer] #1 \end{proof}} }
+
+%% MGL
+\newcommand{\CC}{\mathbb{C}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Ham}{\mathcal{H}}
+\newcommand{\sL}{\mathcal{L}}
+\newcommand{\sP}{\mathcal{P}}
+\newcommand{\sV}{\mathcal{V}}
+
+\newcommand{\vect}[1]{\,\vec{\mathbf{#1}}\,}
+%\newcommand{\vect}[1]{\,\mathbf{#1}\,}
+\usepackage{tabularx}
+\newcommand{\vtau}{\vect{\tau}}
+\newcommand{\vomega}{\vect{\omega}}
+\newcommand{\va}{\vect{a}}
+\newcommand{\vb}{\vect{b}}
+\newcommand{\vc}{\vect{c}}
+\newcommand{\vd}{\vect{d}}
+\newcommand{\ve}{\vect{e}}
+\newcommand{\vf}{\vect{f}}
+\newcommand{\vg}{\vect{g}}
+\newcommand{\vh}{\vect{h}}
+\newcommand{\vi}{\vect{i}}
+\newcommand{\vj}{\vect{j}}
+\newcommand{\vk}{\vect{k}}
+\newcommand{\vl}{\vect{l}}
+\newcommand{\vm}{\vect{m}}
+\newcommand{\vn}{\vect{n}}
+\newcommand{\vo}{\vect{o}}
+\newcommand{\vp}{\vect{p}}
+\newcommand{\vq}{\vect{q}}
+\newcommand{\vr}{\vect{r}}
+\newcommand{\vs}{\vect{s}}
+\newcommand{\vt}{\vect{t}}
+\newcommand{\vu}{\vect{u}}
+\newcommand{\vv}{\vect{v}}
+\newcommand{\vw}{\vect{w}}
+\newcommand{\vx}{\vect{x}}
+\newcommand{\vy}{\vect{y}}
+\newcommand{\vz}{\vect{z}}
+
+\newcommand{\vA}{\vect{A}}
+\newcommand{\vB}{\vect{B}}
+\newcommand{\vC}{\vect{C}}
+\newcommand{\vD}{\vect{D}}
+\newcommand{\vE}{\vect{E}}
+\newcommand{\vF}{\vect{F}}
+\newcommand{\vG}{\vect{G}}
+\newcommand{\vH}{\vect{H}}
+\newcommand{\vI}{\vect{I}}
+\newcommand{\vJ}{\vect{J}}
+\newcommand{\vK}{\vect{K}}
+\newcommand{\vL}{\vect{L}}
+\newcommand{\vM}{\vect{M}}
+\newcommand{\vN}{\vect{N}}
+\newcommand{\vO}{\vect{O}}
+\newcommand{\vP}{\vect{P}}
+\newcommand{\vQ}{\vect{Q}}
+\newcommand{\vR}{\vect{R}}
+\newcommand{\vS}{\vect{S}}
+\newcommand{\vT}{\vect{T}}
+\newcommand{\vU}{\vect{U}}
+\newcommand{\vV}{\vect{V}}
+\newcommand{\vW}{\vect{W}}
+\newcommand{\vX}{\vect{X}}
+\newcommand{\vY}{\vect{Y}}
+\newcommand{\vZ}{\vect{Z}}
+%\newcommand{\pd}[2]{\frac{\partial#1}{\partial#2}}
+%\newcommand{\dd}[2]{\frac{d#1}{d#2}}
+\newcommand{\dinline}[2]{d #1/d #2} % for derivatives
+\newcommand{\pdinline}[2]{\partial#1/\partial#2}
+
+\newcommand{\boldcent}[1] {\begin{center}\textbf{ #1 }\end{center}}
+% ***********************************************************
+% ******************* PHYSICS HEADER ************************
+% ***********************************************************
+% From http://www.dfcd.net/articles/latex/latex.html
+% Version 2
+%\documentclass[11pt]{article} 
+\usepackage{amsmath} % AMS Math Package
+\usepackage{amsthm} % Theorem Formatting
+\usepackage{amssymb}	% Math symbols such as \mathbb
+\usepackage{graphicx} % Allows for eps images
+\usepackage{multicol} % Allows for multiple columns
+%\usepackage[dvips,letterpaper,margin=0.75in,bottom=0.5in]{geometry}
+% % Sets margins and page size
+%\pagestyle{empty} % Removes page numbers
+%\makeatletter % Need for anything that contains an @ command 
+%\renewcommand{\maketitle} % Redefine maketitle to conserve space
+%{ \begingroup \vskip 10pt \begin{center} \large {\bf \@title}
+%	\vskip 10pt \large \@author \hskip 20pt \@date \end{center}
+%  \vskip 10pt \endgroup \setcounter{footnote}{0} }
+%\makeatother % End of region containing @ commands
+\renewcommand{\labelenumi}{(\alph{enumi})} % Use letters for enumerate
+% \DeclareMathOperator{\Sample}{Sample}
+\let\vaccent=\v % rename builtin command \v{} to \vaccent{}
+\renewcommand{\v}[1]{\ensuremath{\mathbf{#1}}} % for vectors
+\newcommand{\gv}[1]{\ensuremath{\mbox{\boldmath$ #1 $}}} 
+% for vectors of Greek letters
+\newcommand{\uv}[1]{\ensuremath{\mathbf{\hat{#1}}}} % for unit vector
+\newcommand{\hx}{\uv{x}}
+\newcommand{\hy}{\uv{y}}
+\newcommand{\hz}{\uv{z}}
+\newcommand{\hr}{\uv{r}}
+\newcommand{\hphi}{\uv{\phi}}
+\newcommand{\htheta}{\uv{\theta}}
+%\newcommand{\abs}[1]{\left| #1 \right|} % for absolute value
+\newcommand{\avg}[1]{\left< #1 \right>} % for average
+%\let\underdot=\d % rename builtin command \d{} to \underdot{}
+%\renewcommand{\d}[2]{\frac{d #1}{d #2}} % for derivatives
+\newcommand{\fd}[2]{\frac{d #1}{d #2}} % for derivatives
+\newcommand{\dd}[2]{\frac{d^2 #1}{d #2^2}} % for double derivatives
+\newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}} 
+% for partial derivatives
+\newcommand{\pdd}[2]{\frac{\partial^2 #1}{\partial #2^2}} 
+\newcommand{\pddx}[3]{\frac{\partial^2 #1}{\partial #2 \partial #3}} 
+% for double partial derivatives
+\newcommand{\pdc}[3]{\left( \frac{\partial #1}{\partial #2}
+ \right)_{#3}} % for thermodynamic partial derivatives
+\newcommand{\ket}[1]{\left| #1 \right>} % for Dirac bras
+\newcommand{\bra}[1]{\left< #1 \right|} % for Dirac kets
+\newcommand{\braket}[2]{\left< #1 \vphantom{#2} \right|
+ \left. #2 \vphantom{#1} \right>} % for Dirac brackets
+\newcommand{\matrixel}[3]{\left< #1 \vphantom{#2#3} \right|
+ #2 \left| #3 \vphantom{#1#2} \right>} % for Dirac matrix elements
+\newcommand{\grad}[1]{\gv{\nabla} #1} % for gradient
+\let\divsymb=\div % rename builtin command \div to \divsymb
+\renewcommand{\div}[1]{\gv{\nabla} \cdot #1} % for divergence
+\newcommand{\curl}[1]{\gv{\nabla} \times #1} % for curl
+\newcommand{\lap}[1]{\gv{\nabla}^2 #1} % for laplacian
+\let\baraccent=\= % rename builtin command \= to \baraccent
+\renewcommand{\=}[1]{\stackrel{#1}{=}} % for putting numbers above =
+\newtheorem{prop}{Proposition}
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lem}[thm]{Lemma}
+\theoremstyle{definition}
+\newtheorem{dfn}{Definition}
+\theoremstyle{remark}
+\newtheorem*{rmk}{Remark}
+
+%% Related to termcal package
+
+% Note that it appears termcal calendars have to start on a Monday!
+
+\usepackage{termcal}
+% Examples from  https://sites.google.com/site/mattmastin/teaching/grsc-7700/latex-templates
+% and http://tex.stackexchange.com/questions/843/latex-classes-or-styles-for-schedules-and-or-calendars
+\renewcommand{\arraystretch}{2}
+
+
+% Few useful commands (our classes always meet either on Monday and Wednesday 
+% or on Tuesday and Thursday)
+
+\newcommand{\MWClass}{%
+\calday[Monday]{\classday} % Monday
+\skipday % Tuesday (no class)
+\calday[Wednesday]{\classday} % Wednesday
+\skipday % Thursday (no class)
+\skipday % Friday 
+\skipday\skipday % weekend (no class)
+}
+\newcommand{\MWFClass}{%
+\calday[Monday]{\classday} % Monday
+\skipday % Tuesday (no class)
+\calday[Wednesday]{\classday} % Wednesday
+\skipday % Thursday (no class)
+\calday[Friday]{\classday} % Friday 
+\skipday\skipday % weekend (no class)
+}
+
+\newcommand{\TRClass}{%
+\skipday % Monday (no class)
+\calday[Tuesday]{\classday} % Tuesday
+\skipday % Wednesday (no class)
+\calday[Thursday]{\classday} % Thursday
+\skipday % Friday 
+\skipday\skipday % weekend (no class)
+}
+
+\newcommand{\MThFClass}{%
+\calday[Monday]{\classday} % Monday
+\skipday % Tuesday (no class)
+\skipday % Wednesday (no class)
+\calday[Thursday]{\classday} % Thursday
+\calday[Friday]{\classday} % Friday
+\skipday\skipday % weekend (no class)
+}
+
+\newcommand{\Holiday}[2]{%
+\options{#1}{\noclassday}
+\caltext{#1}{#2}
+}
+
+\newcommand{\Assigned}[1]{
+\textbf{\underline{#1}}
+}
+
+
+% ***********************************************************
+% ********************** END HEADER *************************
+% ***********************************************************

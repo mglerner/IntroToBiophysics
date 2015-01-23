@@ -290,7 +290,7 @@ website has a nice set of pointers to other resources.
 | **Week of** | **Tuesday** | **Friday** | **Assignments** |
 |:-----------:|:------------|:-----------|:----------------|
 |01/13|*No class*|1.1-1.4|No homework. Whee!|
-|01/20|1.5, 2.1-2.2|2.3, 3.1|HW #1 (Ch. 1-2)|
+|01/20|1.5, 2.1-2.3|3.1 IPython Notebook from class [here](IntroProbability/Gaussian.ipynb)|HW #1 (Ch. 1-2)|
 |01/27|3.2-3.3|4.1|HW #2 (Ch. 3)|
 |02/03|4.2-4.3|4.4-4.5|HW #3 (Ch. 4)|
 |02/10|4.6|Molecular dynamics, diffusion in membranes (instructor-provided materials)|HW #5 (Ch. 4, MD)|
