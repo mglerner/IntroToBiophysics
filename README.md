@@ -290,10 +290,10 @@ specifically, you may choose to have me create custom
 ## Calendar ##
 
 | **Week of** | **Tuesday** | **Friday** | **Assignments** |
-| (Tuesday)   |             |            |                 |
+| (Tuesday)
 |:-----------:|:------------|:-----------|:----------------|
 |01/13|*No class*|1.1-1.4|HW #0: 1. Click around on the [Physical Lens on the Cell][PLotC], post the most interesting thing you find on Moodle/Piazza; 2. install the Anaconda Python Distribution on your computer of choice (the SciLi Macs have it), and work through the first three [Software Carpentry Python Lessons](http://software-carpentry.org/v5/novice/python/index.html). I'm happy to help with setting up your computer! Due next Tuesday before class.|
-|01/20|1.5, 2.1-2.2|2.3, 3.1|HW #1: (Ch. 1-2) 1.3, 1.4, 1.6, 1.7, 2.1, 2.2 (print three of your favorites), 2.5 (What is the size of the micelle?). Chapter 1 problems due before Friday's class; Chapter 2 problems due before next Tuesday's class. **For one of the Chapter 1 problems, do your calculations in an IPython Notebook, and email me your .ipynb file**.|
+|01/20|1.5, 2.1-2.3|3.1 IPython Notebook from class [here](IntroProbability/Gaussian.ipynb)|HW #1: (Ch. 1-2) 1.3, 1.4, 1.6, 1.7, 2.1, 2.2 (print three of your favorites), 2.5 (What is the size of the micelle?). Chapter 1 problems due before Friday's class; Chapter 2 problems due before next Tuesday's class. **For one of the Chapter 1 problems, do your calculations in an IPython Notebook, and email me your .ipynb file**|
 |01/27|3.2-3.3|4.1|HW #2: (Ch. 3) 3.1, 3.4|
 |02/03|4.2-4.3|4.4-4.5|HW #3: (Ch. 4)|
 |02/10|4.6|Molecular dynamics, diffusion in membranes (instructor-provided materials)|HW #5: (Ch. 4, MD)|

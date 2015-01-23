@@ -1,0 +1,199 @@
+\documentclass[10pt]{article}
+\input{macros}
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{wasysym}% provides \ocircle and \Box
+\usepackage{enumitem}% easy control of topsep and leftmargin for lists
+\usepackage{color}% used for background color
+\usepackage{forloop}% used for \Qrating and \Qlines
+\usepackage{ifthen}% used for \Qitem and \QItem
+\usepackage{typearea}
+\areaset{17cm}{26cm}
+\setlength{\topmargin}{-1cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Beginning of questionnaire command definitions         %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Taken from an example at http://www.svenhartenstein.de/Software/LaTeX-Questionnaires
+%%
+%% 2010 by Sven Hartenstein
+%% mail@svenhartenstein.de
+%% http://www.svenhartenstein.de
+%%
+%% Please be warned that this is NOT a full-featured framework for
+%% creating (all sorts of) questionnaires. Rather, it is a small
+%% collection of LaTeX commands that I found useful when creating a
+%% questionnaire. Feel free to copy and adjust any parts you like.
+%% Most probably, you will want to change the commands, so that they
+%% fit your taste.
+%%
+%% Also note that I am not a LaTeX expert! Things can very likely be
+%% done much more elegant than I was able to. If you have suggestions
+%% about what can be improved please send me an email. I intend to
+%% add good tipps to my website and to name contributers of course.
+
+%% \Qq = Questionaire question. Oh, this is just too simple. It helps
+%% making it easy to globally change the appearance of questions.
+\newcommand{\Qq}[1]{\textbf{#1}}
+
+%% \QO = Circle or box to be ticked. Used both by direct call and by
+%% \Qrating and \Qlist.
+\newcommand{\QO}{$\Box$}% or: $\ocircle$
+
+%% \Qrating = Automatically create a rating scale with NUM steps, like
+%% this: 0--0--0--0--0.
+\newcounter{qr}
+\newcommand{\Qrating}[1]{\QO\forloop{qr}{1}{\value{qr} < #1}{---\QO}}
+
+%% \Qline = Again, this is very simple. It helps setting the line
+%% thickness globally. Used both by direct call and by \Qlines.
+\newcommand{\Qline}[1]{\rule{#1}{0.6pt}}
+
+%% \Qlines = Insert NUM lines with width=\linewith. You can change the
+%% \vskip value to adjust the spacing.
+\newcounter{ql}
+\newcommand{\Qlines}[1]{\forloop{ql}{0}{\value{ql}<#1}{\vskip0em\Qline{\linewidth}}}
+
+%% \Qlist = This is an environment very similar to itemize but with
+%% \QO in front of each list item. Useful for classical multiple
+%% choice. Change leftmargin and topsep accourding to your taste.
+\newenvironment{Qlist}{%
+  \renewcommand{\labelitemi}{\QO}
+%%  \begin{itemize}[leftmargin=1.5em,topsep=-.5em]
+  \begin{itemize}[leftmargin=9.5em,topsep=-.5em]
+}{%
+  \end{itemize}
+}
+
+%% \Qtab = A "tabulator simulation". The first argument is the
+%% distance from the left margin. The second argument is content which
+%% is indented within the current row.
+\newlength{\qt}
+\newcommand{\Qtab}[2]{
+  \setlength{\qt}{\linewidth}
+  \addtolength{\qt}{-#1}
+  \hfill\parbox[t]{\qt}{\raggedright #2}
+}
+
+%% \Qitem = Item with automatic numbering. The first optional argument
+%% can be used to create sub-items like 2a, 2b, 2c, ... The item
+%% number is increased if the first argument is omitted or equals 'a'.
+%% You will have to adjust this if you prefer a different numbering
+%% scheme. Adjust topsep and leftmargin as needed.
+\newcounter{itemnummer}
+\newcommand{\Qitem}[2][]{% #1 optional, #2 notwendig
+  \ifthenelse{\equal{#1}{}}{\stepcounter{itemnummer}}{}
+  \ifthenelse{\equal{#1}{a}}{\stepcounter{itemnummer}}{}
+  \begin{enumerate}[topsep=2pt,leftmargin=2.8em]
+  \item[\textbf{\arabic{itemnummer}#1.}] #2
+  \end{enumerate}
+}
+
+%% \QItem = Like \Qitem but with alternating background color. This
+%% might be error prone as I hard-coded some lengths (-5.25pt and
+%% -3pt)! I do not yet understand why I need them.
+\definecolor{bgodd}{rgb}{0.8,0.8,0.8}
+\definecolor{bgeven}{rgb}{0.9,0.9,0.9}
+\newcounter{itemoddeven}
+\newlength{\gb}
+\newcommand{\QItem}[2][]{% #1 optional, #2 notwendig
+  \setlength{\gb}{\linewidth}
+  \addtolength{\gb}{-5.25pt}
+  \ifthenelse{\equal{\value{itemoddeven}}{0}}{%
+    \noindent\colorbox{bgeven}{\hskip-3pt\begin{minipage}{\gb}\Qitem[#1]{#2}\end{minipage}}%
+    \stepcounter{itemoddeven}%
+  }{%
+    \noindent\colorbox{bgodd}{\hskip-3pt\begin{minipage}{\gb}\Qitem[#1]{#2}\end{minipage}}%
+    \setcounter{itemoddeven}{0}%
+  }
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% End of questionnaire command definitions               %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+  \textbf{\huge Physics 360 Student Survey}
+\end{center}\vskip1em
+
+\renewcommand{\QO}{$\ocircle$}% Use circles now instead of boxes.
+\newcommand{\vsp}{\vspace{5mm}}
+\newcommand{\Qopt}{\Qtab{5cm}{Great \Qrating{5} Poor/None}}
+
+
+\Qq{About you}\vskip.5em
+
+\QItem{\vsp \Qq{ Your name (last, first, middle)}: \Qline{8cm}}
+
+
+\QItem{\vsp \Qq{ Preferred Nickname}: \Qline{8cm} }
+
+\QItem{\vsp \Qq{ Box \# \Qline{1.5cm} Phone \# (dorm or cell) \Qline{3cm}
+    Class(Fr,So,Jr,Sr) \Qline{1.5cm}}}
+
+\QItem{\vsp \Qq{Probable major \Qline{3cm} Academic adviser
+    \Qline{3cm}} }
+
+
+\vsp
+
+\Qitem{ \Qq{What year did you take Physics 125 (or its equivalent)?,
+    '11, '12, '13, '14? Here or elsewhere?} \Qlines{2} }
+
+\Qitem{ \Qq{What other math courses have you taken (I prefer names,
+    not numbers)? \Qlines{3}}}
+
+\Qitem{ \Qq{What other physics courses have you taken (I prefer names,
+    not numbers)? \Qlines{4}}}
+
+\Qitem{ \Qq{What kinds of applications are you particularly interested
+    in? Protein Folding? Ion channels? Alzheimer's? \Qlines{6}}}
+
+\Qitem{ \Qq{Is there anything the instructor should know about you?
+    (Re: health, job schedule, athletics, extra courses, particular
+    difficulties in learning or studying, etc.) \Qlines{6} }}
+
+\Qitem{ \Qq{Have you purchased a textbook for this course? \Qlines{2}}}
+
+(turn over)
+
+\newpage
+
+\Qq{Please indicate your sense of competence with the following}
+
+\Qq{(NOTE - I'm not assuming many of you to have a background in much of this}
+
+\Qq{material; I'd just like to be informed if several of you happen to.)}
+
+\vskip.5em
+
+(Circles correspond to: Great, O.K., SoSo, Weak, Poor/None)
+
+\vsp
+\Qq{Calculus} 
+
+\QItem{\Qq{Derivatives  $\fd{}{x}$ } \Qopt}
+
+\QItem{\Qq{Integration $\int$} \Qopt}
+
+\QItem{\Qq{Equations involving derivatives \\ $\fd{y}{x} + 2xy = y^2$ } \Qopt}
+
+\vsp
+\Qq{Computer}
+
+\QItem{\Qq{Excel} \Qopt}
+
+\QItem{\Qq{Sage} \Qopt}
+
+\QItem{\Qq{Python} \Qopt}
+
+\QItem{\Qq{Maple} \Qopt}
+
+\QItem{\Qq{Matlab} \Qopt}
+
+\QItem{\Qq{Any programming} \Qopt}
+
+\end{document}
