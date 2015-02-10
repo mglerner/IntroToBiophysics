@@ -1,16 +1,6 @@
 Introduction To Biophysics (PHYS 225/BIOL 225) (3 credits, SI non-lab, A-QR)
 ========================================================
 
-**TODO**
-
-  1. decide if Demian should cover ENM (benefit: dead simple physical
-     model + a touch of linear algebra = deep insight) or QM/MM
-     (benefit: MGL does MD, LW does QM+DFT, DR does QM/MM is a really
-     nice sequence)
-
-  1. Add accommodations, plagiarism policy, etc.
-
-
 When people ask me what it means to be a Biophysicist, my stock answer
 is "I like to think like a physicist, but am fascinated by problems
 that come from biology." **Introduction to Biophysics** is an
