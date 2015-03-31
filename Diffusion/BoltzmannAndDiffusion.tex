@@ -1,0 +1,425 @@
+\documentclass[12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{macros}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\pagestyle{empty}
+\usepackage{tikz}
+\usepackage{filecontents,pgfplots}
+\usepackage{enumerate}
+\usepackage{nth}
+\usepackage{wrapfig}
+\usetikzlibrary{scopes}
+%\usepackage{natbib}
+
+\begin{document}
+\setlength{\unitlength}{1in}
+\title{Diffusion and Boltzmann's constant}
+\author{Michael G. Lerner}
+\date{\today}
+\maketitle
+%\begin{abstract}
+%\end{abstract}
+
+We'll use modern microscopy techniques to measure Boltzmann's constant
+by looking at the diffusion of microspheres suspended in fluid and by
+looking at the diffusion of quantum dots attached to PE lipids in
+supported membranes. We will follow the methodology from
+\cite{nakroshis2003measuring}. The paper is pretty good, and we'll do
+both types of analysis mentioned in the article, meaning that we'll
+want to use both equation (3) and equation (5) from the paper. Here's
+where those come from. This treatment is known as Stokes-Einstein
+diffusion.
+\section{The Langevin Equation}
+
+We've spent a lot of the class so far learning the lesson of
+statistical physics: we can determine an enormous amount of physics
+related to ``large'' systems by looking at average properties. Here,
+we apply the same thinking to dynamics. If we want to describe the
+motion of a grain of pollen floating on a pond (or a microsphere in
+solution, or a lipid in a membrane), we know that we'll need some sort
+of differential equation. The statistical physics trick is that we'll
+want a \textit{stochastic} differential equation. That is, we'll want
+our differential equation to have a \textit{random} term representing
+the interaction of our pollen with the water. The specific type of
+differential equation we'll want is called a Langevin equation. Don
+Lemons has written a fantastic introduction to stochastic processes
+\cite{LemonsStochasticIntro} and MacDonald \cite{MacDonaldNoise} has a
+wonderful small book as well if this topic catches your interest. Reif
+\cite{ReifStatMech} also has a nice derivation starting in \S15.5 and
+we follow it below.
+
+We'll treat a one-dimensional system, and the first goal is to get the
+Langevin equation
+
+\begin{equation}
+  \label{Langevin}
+  m\fd{v}{t} = -\zeta v + \eta(t)
+\end{equation}
+
+In looking at (\ref{Langevin}), the two terms on the right hand side
+are new to us. The first of these a) slows us down and b) is
+proportional to velocity, and so is known as a ``velocity-dependent
+drag force'' and $\zeta$ is called the ``drag coefficient''. Although
+we won't use it here, the quantity $1/\zeta$ is called the
+``mobility'' and is typically written as $\mu$.
+The second is our stochastic, or ``noise'' term, a rapidly fluctuating
+force due to the environmental water molecules (the Greek letter eta
+is chosen because $\eta$ looks like the ``n'' from ``noise'').
+
+In general, we start with Newton's second law:
+
+\begin{equation}
+  \label{N2L} 
+  m\dd{x}{t} = m\fd{v}{t} = F
+\end{equation}
+and we will try to say some smart things about $F$ that will let us
+write (\ref{N2L}) as (\ref{Langevin}).
+
+On the statistical side, if $F$ is the force on our microsphere due to
+the surrounding waters, we'd like to consider the average of a large
+number $N$ of identically prepared systems, finding the average force
+at a specific time $t_1$ on our particle as
+
+\begin{equation}
+  \avgb{F(t_1)} \equiv \frac{1}{N}\sum_{n=1}^NF^{(n)}(t_1)
+\end{equation}
+where $n$ indexes the identically prepared systems. If we assume that
+$F(t)$ is rapidly fluctuating, it must then be true that $v$ is also
+rapidly fluctuating. 
+
+The physical insight here is that we can then break $v$ up into two pieces:
+
+\begin{equation}
+  \label{vphysicalinsight}
+  v = \avgb{v} + \tilde{v}
+\end{equation}
+where $\avgb{v}$ is the (slowly varying) ensemble average velocity, and
+$\tilde{v}$ a rapidly fluctuating term with mean zero. The key thing
+here is that, if we want the long-time behavior of our particle, the
+relative \textit{magnitudes} of $\avgb{v}$ and $\tilde{v}$ don't
+matter. In fact, the microscopic world is turbulent and extremely
+violent. Living in the macroscopic world, we don't usually think about
+such things, but the forces bombarding very small objects result in
+$\tilde{v}$'s that are typically much larger than $\avgb{v}$'s.
+
+%%%In any case, to get our description of $v$ (\ref{Langevin}), let's
+%%%integrate over some time interval $\tau$:
+%%%
+%%%\begin{equation}
+%%%  \label{tauint}
+%%%  m\left[ v(t+\tau) - v(t)\right] = \int_t^{t+\tau}F(t')dt'
+%%%\end{equation}
+%%%
+%%%where $t'$ is some dummy variable that disappears after the
+%%%integration. We have to be a little careful in choosing $\tau$. A
+%%%fuller description may be found in the references, but our physical insight was
+%%%that there was a short (microscopic) time scale and a long
+%%%time scale (macroscopic). $\tau$ must then be small on the macroscopic
+%%%timescale for our description to work, but big enough on the
+%%%microscopic time scale that we can use our physical insight equation
+%%%(\ref{vphysicalinsight}). In practice, this is easy enough to do because the
+%%%timescales are very far apart.
+%%%
+We can use the same sort of physical insight to the force acting on
+the particle:
+
+\begin{equation}
+  \label{fphysicalinsight}
+  F = \avgb{F} + \tilde{F} \equiv \avgb{F} + \eta
+\end{equation}
+
+We're almost done at this point, so take a quick look back at
+(\ref{Langevin}) and (\ref{N2L}). We have the rapidly-varying part,
+but we need to be a little more detailed in our treatment of the
+slowly-varying part. We don't usually talk about force as
+a function of velocity, but there's no reason not to. In fact,
+%%%(\ref{tauint}) and (\ref{N2L}) make it quite clear that it's
+(\ref{N2L}) makes it quite clear that it's
+reasonable to do so.
+
+If $\avgb{F}$ is the slowly-varying part of $F$, it must be a function
+of the slowly-varying part of $v$, $\avgb{v}$. We know this because,
+in equilibrium, if $\avgb{v}$ is zero, must find $\avgb{F}$ = 0. Being
+Physicists, we immediately think to expand $\avgb{F(\avgb{v})}$ (for
+the next equation, we'll use overbars to represent averages, because
+$\avg{F}(\avg{v})$ looks much clearer than $\avgb{F(\avgb{v})}$) in a power series:
+
+\begin{equation}
+  \label{fmac}
+  \avg{F}(\avg{v}) = \sum_{k=0}^\infty a_0 + a_1\avg{v} + a_2\avg{v}^2 + a_3\avg{v}^3 + ...
+\end{equation}
+
+If we assume that our system is unbiased (that is, that the constant
+term in (\ref{fmac}) is zero), our first non-zero term is the linear
+term. Renaming $a_1$ to be $-\zeta$ where the explicit minus sign
+indicates that our environmental forces will tend to slow an object
+down, we have our velocity-dependent drag force\footnote{Actually, the
+derivation here is sweeping some things under the rug. Langevin's 1908
+derivation just \textit{assumed} that one could model the average
+force from the environment as a velocity-dependent drag. That's a
+perfectly physical reasonable assumption on its own. More rigorously,
+one can derive the generalized Langevin equation (GLE, see, for
+example, \cite{TuckermanStatMechSim}), and from it
+the Langevin equation used here.}:
+
+\begin{equation}
+  \label{vddrag}
+  \avgb{F} = -\zeta \avgb{v}
+\end{equation}
+Plugging \ref{vddrag} into the right hand side of
+\ref{fphysicalinsight}, and plugging the result into the right hand
+side of \ref{N2L}, we get
+
+\begin{equation*}
+  m\dd{x}{t} = m\fd{v}{t} = F = \avgb{F} + \eta = -\zeta \avgb{v} + \eta
+\end{equation*}
+which, looking at the \nth{2} and \nth{5} parts, is the Langevin
+equation that we wanted!
+
+In the presence of an external force, this becomes
+
+\begin{equation}
+  m\fd{v}{t} = F_{ext} -\zeta v + \eta(t)
+\end{equation}
+
+and the slowly-varying part becomes
+
+\begin{equation}
+  m\fd{\avgb{v}}{t} = F_{ext} -\zeta \avgb{v}
+\end{equation}
+\section{Mean-square displacement}
+
+%%The notation in clearer in this section if we use
+%%$\avgb{x}$ to denote the average of $x$, rather than $\avgb{x}$.
+As with the previous section, this follows \cite{ReifStatMech}
+\S15.6. 
+So, after having derived the equation of motion for our
+particle 
+
+\begin{equation*}
+  m\fd{v}{t} = -\zeta v + \eta(t)
+\end{equation*}
+what sorts of quantities can we calculate? In absence of an external
+force, it seems pretty clear that $\avgb{x} = 0$ in thermal
+equilibrium, so
+we'd better turn towards higher moments. The most commonly useful of
+these is the mean-square displacement, $\avgb{x^2}$.
+
+The key insight we'll need in order to find $\avgb{x^2}$ is that we
+already know something about average values! In particular, the
+equipartition theorem tells us that the kinetic energy,
+$\frac{1}{2}mv^2$, ought to have average value $\frac{1}{2} kT$. If we
+write $v$ as $\dot{x}$ and multiply both of those by two, and hope
+that for our sanity mass does not fluctuate, we have
+
+\begin{equation}
+  \label{equipartition}
+  m\avgb{\dot{x}^2} = kT
+\end{equation}
+
+If you haven't recently taken a probability/statistics class, two
+reminders are in order. First, we need to be careful with averages, as
+$\avgb{x}^2 \neq \avgb{x^2}$. Second, we often use the product rule to
+do things like multiply both sides of
+
+\begin{equation}
+  m\fd{\dot{x}}{t} = -\zeta\dot{x} + \eta(t)
+\end{equation}
+by $x$ specifically so that we can get an equation involving
+$\dot{x}^2$:
+
+\begin{equation}
+  \label{msd1}
+  mx\fd{\dot{x}}{t}
+  =  
+  m\left[ \fd{}{t}(x\dot{x}) - \dot{x}^2 \right] 
+  = 
+  -\zeta x\dot{x} + x\eta(t)
+\end{equation}
+
+We're now in a position to take the ensemble average of both sides of
+this equation. OK, a third reminder: the ensemble average of the sum
+of two quantities is the sum of their respective ensemble averages. If
+two quantities are independent, the ensemble average of their product
+is the product of their ensemble averages. In particular, looking at
+the right hand side of our equation,
+
+\begin{equation}
+  \avgb{-\zeta x\dot{x} + x\eta(t)} = \avgb{-\zeta x\dot{x}} + \avgb{x\eta(t)}
+  = -\zeta \avgb{x\dot{x}} + \avgb{x}\avgb{\eta(t)}
+  = -\zeta \avgb{x\dot{x}}
+\end{equation}
+
+where the last equality comes from the fact that the expectation value
+of our randomly fluctuating force is, by definition, zero. If we
+rearrange (\ref{msd1}) as
+
+\begin{equation}
+  \label{msd2}
+  m\fd{}{t}(x\dot{x})
+  = 
+  m\dot{x}^2 -\zeta x\dot{x} + x\eta(t)
+\end{equation}
+we can take ensemble averages and use (\ref{equipartition}) to
+write\footnote{OK, fine, a fourth thing to remember: you can commute
+  the time derivative inside an ensemble average. To prove this to
+  yourself, write the average out as an explicit sum and note that
+  taking the derivative of the sum is just taking the sum of the
+  derivatives of the individual terms.}
+
+\begin{eqnarray}
+  \avgb{m\fd{}{t}(x\dot{x})}
+  &=&
+  \avgb{m\dot{x}^2 -\zeta x\dot{x} + x\eta(t)} \\
+  \nonumber
+  m\fd{}{t}\avgb{x\dot{x}}
+  &=&
+  m\avgb{\dot{x}^2} -\zeta \avgb{x\dot{x}} \\
+  \nonumber
+  m\fd{}{t}\avgb{x\dot{x}}
+  &=&
+  kT -\zeta \avgb{x\dot{x}}\\
+  \label{msd3}
+  \fd{}{t}\avgb{x\dot{x}}
+  &=&
+  \frac{kT}{m} -\frac{\zeta}{m} \avgb{x\dot{x}}
+\end{eqnarray}
+
+That last line may look a little funny, but it's just an ODE in
+$\avgb{x\dot{x}}$, which is something we surely know how to
+solve:
+
+\begin{equation}
+  \label{msd4}
+  \avgb{x\dot{x}} = Ce^{-\frac{\zeta}{m} t} + \frac{kT}{m}\frac{m}{\zeta}
+  \equiv Ce^{-\frac{1}{\tau} t} + \frac{kT}{\zeta}
+\end{equation}
+where C is a constant of integration, and $\tau = \frac{m}{\zeta}$ is the
+characteristic time. Before we plug in some initial conditions, note
+that $\avgb{x\dot{x}}$ isn't a completely foreign quantity:
+
+\begin{equation}
+  \label{x2xxd}
+  \frac{1}{2}\fd{\avgb{x^2}}{t} = \avgb{x\dot{x}}
+\end{equation}
+Now, as far as our initial conditions go, we want $\avgb{x^2}$ to be
+the mean-square displacement of a particle, so it makes sense to set
+$x(t=0) = 0$. Plugging that into (\ref{msd4}) gives
+
+
+\begin{equation}
+  0 = C + \frac{kT}{\zeta}
+\end{equation}
+so we know $C=-\frac{kT}{\zeta}$ and we can rewrite (\ref{msd4}) as 
+\begin{equation}
+  \label{msd5}
+  \avgb{x\dot{x}} = \frac{1}{2}\fd{\avgb{x^2}}{t} = \frac{kT}{\zeta}(1-e^{-\frac{1}{\tau} t})
+\end{equation}
+and we can finally get an equation for $\avgb{x^2}$ by integrating
+once:
+
+\begin{equation}
+  \label{msdfull}
+  \avgb{x^2} = \frac{2kT}{\zeta}\left[t-\tau(1-e^{-\frac{1}{\tau} t})\right]
+\end{equation}
+
+%%\begin{wrapfigure}{l}{6cm}
+\begin{tikzpicture}[scale=2]
+    \draw[very thin,color=gray] (-0.1,-0.1) grid (2.1,2.1);
+    \draw[->] (-0.2,0) -- (2.2,0) node[right] {$t$};
+    \draw[->] (0,-0.2) -- (0,2.2) node[left] {$\avgb{x^2}$};
+    \draw[domain=0:2] plot (\x,{\x - 0.25*(1-exp(-4*\x))}) node[below right] {};
+\end{tikzpicture}
+%%\end{wrapfigure}
+
+At short time scales, that looks parabolic, and is called
+``ballistic'' diffusion. At long time scales, that looks linear, and
+is called ``normal'' diffusion. If we plotted this on a loglog scale,
+we would indeed see two linear regions with slopes 2 and 1
+respectively.
+
+We can see this explicitly. If $t < \tau$, we can expand
+
+\begin{equation}
+  e^{-\frac{1}{\tau} t} = 1 - \frac{1}{\tau} t + \frac{1}{2}\frac{1}{\tau^2}t^2 + ...
+\end{equation}
+and we make our ``short'' time scale explicit as $t \ll \tau$, where
+we can truncate the series as above and (\ref{msdfull}) becomes
+
+\begin{equation}
+  \label{msdshort}
+  \avgb{x^2} \approx
+  \frac{2kT}{\zeta}\left[t-\tau(1- 1 + \frac{1}{\tau} t - \frac{1}{2}\frac{1}{\tau^2}t^2 \right] 
+  = kT\frac{1}{\tau\zeta} t^2 = \frac{kT}{m}t^2
+\end{equation}
+We can now see why this regime is called ``ballistic'': the particle
+behaves as a free particle with constant velocity
+$v=\sqrt{kT/m}$. Meanwhile, on long time scales $t \gg \tau$,
+the exponential term in (\ref{msdfull}) tends towards zero, yielding 
+
+
+\begin{equation}
+  \label{msdlong}
+  \avgb{x^2} = \frac{2kT}{\zeta}\left[t-\tau \right] 
+  \approx \frac{2kT}{\zeta}t
+\end{equation}
+From your statistics classes, you should recognize this as the exact
+same equation as a particle performing a random walk. Indeed, we
+expect a random walker to diffuse with
+
+
+\begin{equation}
+  \avgb{x^2} = 2Dt
+\end{equation}
+in one dimension, so we've found an equation for our diffusion
+constant,
+
+\begin{equation}
+  D = \frac{kT}{\zeta}
+\end{equation}
+
+The ``Stokes'' part of the picture involves classical
+\textit{macroscopic} hydrodynamics showing that, for a sphere of
+radius $a$ in a medium of viscosity $\eta$,
+
+\begin{equation}
+  \zeta  = 6\pi\eta a
+\end{equation}
+so we can write (\ref{msdlong}) as
+
+\begin{equation}
+  \avgb{x^2} = \frac{kT}{3\pi\eta a} t
+\end{equation}
+and we're finally ready to analyze some data! We take experimental
+data, look at a plot of mean-square displacement vs. time, and extract
+the diffusion constant from the slope. Knowing the viscosity of our
+media and the temperature of the experiments then allows us to
+determine Boltzmann's constant, all from watching grains of pollen
+diffuse in water as Perrin did in his famous 1910 work.
+
+\pagebreak
+\section{Potential projects}
+If this sort of thing strikes your fancy, you could certainly do an
+independent project on related matters. Specific topics might include
+
+\begin{itemize}
+\item The generalized Langevin equation
+\item Fluctuation-dissipation theorems
+\item Fokker-Planck equations
+\item Green-Kubo functions
+\item Einstein's 1905 paper and Langevin's 1908 paper
+\item Computer simulations of diffusion
+\item Diffusion as a function of probability distributions
+\end{itemize}
+
+
+
+\section{Thanks}
+ This lab is possible due to the
+  generous support of Adam Hoppe at South Dakota State University.
+\bibliographystyle{alpha}
+\bibliography{diffusionbib}
+
+
+\end{document}

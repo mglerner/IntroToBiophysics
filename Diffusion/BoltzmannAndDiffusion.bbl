@@ -1,0 +1,29 @@
+\begin{thebibliography}{NALS03}
+
+\bibitem[LL02]{LemonsStochasticIntro}
+Don~S Lemons and Paul Langevin.
+\newblock {\em An introduction to stochastic processes in physics}.
+\newblock JHU Press, 2002.
+
+\bibitem[Mac62]{MacDonaldNoise}
+David Keith~Chalmers MacDonald.
+\newblock {\em Noise and fluctuations: an introduction}.
+\newblock Wiley New York, 1962.
+
+\bibitem[NALS03]{nakroshis2003measuring}
+Paul Nakroshis, Matthew Amoroso, Jason Legere, and Christian Smith.
+\newblock Measuring boltzmann’s constant using video microscopy of brownian
+  motion.
+\newblock {\em American Journal of Physics}, 71:568, 2003.
+
+\bibitem[RR65]{ReifStatMech}
+Frederick Reif and F~Reif.
+\newblock {\em Fundamentals of statistical and thermal physics}, volume~1.
+\newblock McGraw-Hill New York, 1965.
+
+\bibitem[Tuc08]{TuckermanStatMechSim}
+Mark Tuckerman.
+\newblock {\em Statistical Mechanics and Molecular Simulations}.
+\newblock Oxford University Press, UK, 2008.
+
+\end{thebibliography}
