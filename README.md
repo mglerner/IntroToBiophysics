@@ -241,7 +241,7 @@ specifically, you may choose to have me create custom
       * What are the outstanding questions that these studies have
         left, and how could those questions be answered?
 
-  * Homework: 35%. Homework will be assigned at the end of each
+  * Homework: 45%. Homework will be assigned at the end of each
     chapter, and you'll have approximately one week to complete each
     assignment. You can turn in an assignment up to one class day late
     for 80% credit, and up to a week late for 50% credit. After that,
@@ -268,14 +268,9 @@ specifically, you may choose to have me create custom
 
       * **0 points** No attempt.
   
-  * Exams: 35%. The final will be worth 15% of your grade. The other
-    two midterm exams will combine for 20%, but I'm kind in the
-    weighting: if you do better on one of the midterms, I will
-    retroactively make it worth 15%, while your lower score becomes
-    worth 5%. The re-weighting is done on a per-student basis, and
-    won't be done if it lowers your grade instead of raising
-    it. Further, students can **redo** missed exam problems to earn
-    extra credit on their overall homework grade.
+  * Exams: 25%. The final will be worth 15% of your grade. The midterm
+    will be worth 10%. Further, students can **redo** missed midterm
+    exam problems to earn extra credit on their overall homework grade.
 
 ## Calendar ##
 
@@ -285,7 +280,7 @@ specifically, you may choose to have me create custom
 |01/13|*No class*|1.1-1.4|HW #0: 1. Click around on the [Physical Lens on the Cell][PLotC], post the most interesting thing you find on Moodle/Piazza; 2. install the Anaconda Python Distribution on your computer of choice (the SciLi Macs have it), and work through the first three [Software Carpentry Python Lessons](http://software-carpentry.org/v5/novice/python/index.html). I'm happy to help with setting up your computer! Due next Tuesday before class.|
 |01/20|1.5, 2.1-2.3|3.1 IPython Notebook from class [here](IntroProbability/Gaussian.ipynb)|HW #1: (Ch. 1-2) 1.3, 1.4, 1.6, 1.7, 2.1, 2.2 (print three of your favorites), 2.5 (What is the size of the micelle?). Chapter 1 problems due before Friday's class; Chapter 2 problems due before next Tuesday's class. **For one of the Chapter 1 problems, do your calculations in an IPython Notebook, and email me your .ipynb file**|
 |01/27|3.2-3.3|4.1|HW #2: (Ch. 3) 3.1, 3.4, 4.2, find two interesting talks at the upcoming [Biophysical Society Meeting](http://www.biophysics.org/2015meeting/Main/tabid/4837/Default.aspx) and be prepared to discuss them in class|
-|02/03|4.2-4.3|4.4-4.5|HW #3: (Ch. 4)|
+|02/03|4.2-4.3|4.4-4.5|HW #3: (Ch. 4) 4.3, 4.4, 4.5|
 |02/10|4.6|Molecular dynamics, diffusion in membranes (instructor-provided materials)|HW #5: (Ch. 4, MD)|
 |02/17|Hand out **exam 1**, in-class lab|*Early semester break*|Finish lab writeup|
 |02/24|5.1-5.2|5.2(cont)-5.3|HW #6: (Ch. 5)|
