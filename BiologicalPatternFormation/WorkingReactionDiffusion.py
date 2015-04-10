@@ -132,6 +132,8 @@ def animate(i):
     return [im1,im2,description_text]
 
 anim = animation.FuncAnimation(fig, animate, init_func=init, repeat=False,
-                               frames=n, interval=20, blit=True)
+                               frames=n, interval=20,
+                               #blit=True
+                               )
 
 plt.show()
