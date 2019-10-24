@@ -137,8 +137,6 @@ Papers for discussion:
 
 | **Week** | **Topic** |
 |:--------:|:----------|
-| **Week** | **Topic** |
-|:--------:|:----------|
 | 1 | Introduction to biology: messy, hot, and crowded. Quick and dirty estimation. Four classes of biomolecules. Visualization with VMD. |
 | 2 | Statistical mechanics: randomness, distributions, and modeling. |
 | 3 | More statistical mechanics, discuss Paper 1 (Gunawardena 2014). |
