@@ -49,8 +49,8 @@ The list of learning proficiencies is much larger. Some broad examples include
 ## Textbook(s) ##
 
 
-* Physical Biology of the Cell by Phillips, Kondev, Theriot, and Garcia, 2nd edition (required).
-* Physical Models of Living Systems, Philip Nelson (recommended).
+* [Physical Biology of the Cell](https://www.amazon.com/Physical-Biology-Cell-Rob-Phillips-ebook/dp/B00AVA5V4E), Phillips, Kondev, Theriot, and Garcia, 2nd edition (required).
+* [Physical Models of Living Systems](https://www.physics.upenn.edu/biophys/PMLS/), Philip Nelson (recommended).
 
 ## Prerequisites ##
 
