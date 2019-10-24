@@ -69,6 +69,39 @@ The list of learning proficiencies is much larger. Some broad examples include
   subject, but we'll introduce the biology as it comes up throughout
   the course.
 
+## Schedule (very approximate) ##
+
+Here's our tentative schedule of topics. The main text covers more than we can reach in a semester, and there are a many interesting, relevant topics not included in the text. So, we will feel free to modify the schedule based on student interest. For example, we removed some topics in order to spend a week and a half on [Biological Pattern Formation](https://github.com/mglerner/IntroToBiophysics/tree/master/BiologicalPatternFormation) in a previous year.
+
+Papers for discussion:
+
+* [Paper 1](http://simbac.gatech.edu/classes/Phys4251/papers/Gunawardena2014.pdf): Models in biology: ‘accurate descriptions of our pathetic thinking’.
+* [Paper 2](http://simbac.gatech.edu/classes/Phys4251/papers/Wang1997.pdf): Stretching DNA with Optical Tweezers,discuss Thurs. Sept. 26
+* [Paper 3](http://simbac.gatech.edu/classes/Phys4251/papers/Yildiz2003.pdf): Myosin V Walks Hand-Over-Hand: Single Fluorophore Imaging with 1.5-nm Localization.
+* [Paper 4](http://simbac.gatech.edu/classes/Phys4251/papers/Zhao2013.pdf): Mature HIV-1 capsid structure by cryo-electron microscopy and all-atom molecular dynamics
+[supplement](http://simbac.gatech.edu/classes/Phys4251/papers/Zhao2013supp.pdf).
+
+
+| **Week** | **Topic** |
+|:--------:|:----------|
+| 1 | Introduction to biology: messy, hot, and crowded. Quick and dirty estimation. Four classes of biomolecules. Visualization with VMD. |
+| 2 | Statistical mechanics: randomness, distributions, and modeling. |
+| 3 | More statistical mechanics, discuss Paper 1 (Gunawardena 2014). |
+| 4 | Amino acid properties, pKas, intro to polymer theory. |
+| 5 | Polymers: freely jointed chains, worm like chains, and chromatin. |
+| 6 | DNA/RNA structure, bending/packing. |
+| 7 | Protein folding, discuss Paper 2 (Wang 1997). |
+| 8 | Diffusion, crowding, discuss class projects. |
+| 9 | More models of diffusion, discuss MGL research. |
+| 10 | **Break** |
+| 11 | chemical equilibrium, rate equations; cytoskeleton. |
+| 12 | molecular motors (ATP synthase, kinesin/myosin). |
+| 13 | More molecular motors, discuss Paper 3 (Yildiz 2003). |
+| 14 | Protein synthesis; genetics, central dogma. |
+| 15 | RNA-Seq, bioinformatics, network models. |
+| 16 | Bioelectricity (ion channels, Nernst potential, Hodgkin-Huxley), discuss Paper 4 (Zhao 2013). |
+
+
 ## Course Structure and Grades ##
 
 |Assignment | points |
@@ -122,37 +155,6 @@ To be clear: no previous experience with computer programming or simulations is 
   
 * Connecting to our computing clusters: for some homework assignments, and perhaps for your final project, you will run short molecular dynamics using the local campus computing resources. If you are on a Mac or Linux, you have everything you need already installed. If you're using Windows, please install [Putty](https://www.putty.org/) and [WinSCP](https://winscp.net/eng/download.php).
 
-## Schedule (very approximate) ##
-
-Here's our tentative schedule of topics. The main text covers more than we can reach in a semester, and there are a many interesting, relevant topics not included in the text. So, we will feel free to modify the schedule based on student interest. For example, we removed some topics in order to spend a week and a half on [Biological Pattern Formation](https://github.com/mglerner/IntroToBiophysics/tree/master/BiologicalPatternFormation) in a previous year.
-
-Papers for discussion:
-
-* [Paper 1](http://simbac.gatech.edu/classes/Phys4251/papers/Gunawardena2014.pdf): Models in biology: ‘accurate descriptions of our pathetic thinking’.
-* [Paper 2](http://simbac.gatech.edu/classes/Phys4251/papers/Wang1997.pdf): Stretching DNA with Optical Tweezers,discuss Thurs. Sept. 26
-* [Paper 3](http://simbac.gatech.edu/classes/Phys4251/papers/Yildiz2003.pdf): Myosin V Walks Hand-Over-Hand: Single Fluorophore Imaging with 1.5-nm Localization.
-* [Paper 4](http://simbac.gatech.edu/classes/Phys4251/papers/Zhao2013.pdf): Mature HIV-1 capsid structure by cryo-electron microscopy and all-atom molecular dynamics
-[supplement](http://simbac.gatech.edu/classes/Phys4251/papers/Zhao2013supp.pdf).
-
-
-| **Week** | **Topic** |
-|:--------:|:----------|
-| 1 | Introduction to biology: messy, hot, and crowded. Quick and dirty estimation. Four classes of biomolecules. Visualization with VMD. |
-| 2 | Statistical mechanics: randomness, distributions, and modeling. |
-| 3 | More statistical mechanics, discuss Paper 1 (Gunawardena 2014). |
-| 4 | Amino acid properties, pKas, intro to polymer theory. |
-| 5 | Polymers: freely jointed chains, worm like chains, and chromatin. |
-| 6 | DNA/RNA structure, bending/packing. |
-| 7 | Protein folding, discuss Paper 2 (Wang 1997). |
-| 8 | Diffusion, crowding, discuss class projects. |
-| 9 | More models of diffusion, discuss MGL research. |
-| 10 | **Break** |
-| 11 | chemical equilibrium, rate equations; cytoskeleton. |
-| 12 | molecular motors (ATP synthase, kinesin/myosin). |
-| 13 | More molecular motors, discuss Paper 3 (Yildiz 2003). |
-| 14 | Protein synthesis; genetics, central dogma. |
-| 15 | RNA-Seq, bioinformatics, network models. |
-| 16 | Bioelectricity (ion channels, Nernst potential, Hodgkin-Huxley), discuss Paper 4 (Zhao 2013). |
 
 ## Acknowledgements ##
 
