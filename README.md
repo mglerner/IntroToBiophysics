@@ -1,4 +1,4 @@
-Biophysics (PHYS 3xx/BIOL 3xx) (3 credits, SI non-lab, A-QR, WI)
+Biophysics (PHYS 325/BIOL 325) (3 credits, SI non-lab, A-QR, WI)
 ========================================================
 
 When people ask me what it means to be a Biophysicist, my stock answer
@@ -164,3 +164,5 @@ and [Paul Nerenberg](http://www.psnlab.org/)
 have graciously provided 
 information and examples relating both to the syllabus and to the
 content. 
+
+[Physical Biology of the Cell]: http://www.rpgroup.caltech.edu/pboc2/
