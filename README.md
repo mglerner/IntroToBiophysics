@@ -49,9 +49,9 @@ The list of learning proficiencies is much larger. Some broad examples include
 ## Textbook(s) ##
 
 
-* [Physical Biology of the Cell](https://www.amazon.com/Physical-Biology-Cell-Rob-Phillips-ebook/dp/B00AVA5V4E), Phillips, Kondev, Theriot, and Garcia, 2nd edition (recommended).
-* [Biological Physics](https://www.amazon.com/Biological-Physics-Student-Energy-Information/dp/057868702X/), Philip Nelson, student edition (suggested – as low as $10 for digital version!) 
-* [Physical Models of Living Systems](https://www.physics.upenn.edu/biophys/PMLS/), Philip Nelson (recommended).
+* [Physical Biology of the Cell], Phillips, Kondev, Theriot, and Garcia, 2nd edition (recommended).
+* [Biological Physics], Philip Nelson, student edition (suggested – as low as $10 for digital version!) 
+* [Physical Models of Living Systems], Philip Nelson (recommended).
 
 ## Prerequisites ##
 
@@ -192,3 +192,6 @@ have graciously provided
 information and examples relating both to the syllabus and to the
 content. 
 
+[Physical Biology of the Cell]: http://www.rpgroup.caltech.edu/pboc2/
+[Biological Physics](https://www.amazon.com/Biological-Physics-Student-Energy-Information/dp/057868702X/)
+[Physical Models of Living Systems](https://www.physics.upenn.edu/biophys/PMLS/)
