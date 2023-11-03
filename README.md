@@ -5,7 +5,7 @@ When people ask me what it means to be a Biophysicist, my stock answer
 is "I like to think like a physicist, but am fascinated by problems
 that come from biology." **Introduction to Biophysics** is an
 introduction to that mindset, summed up wonderfully by the back-cover
-of [Physical Biology of the Cell][PBoC]:
+of [Physical Biology of the Cell]:
 
 > *Physical Biology of the Cell* maps the huge and complex landscape
 > of cell and molecular biology from the distinct perspective of
