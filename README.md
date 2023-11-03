@@ -49,7 +49,8 @@ The list of learning proficiencies is much larger. Some broad examples include
 ## Textbook(s) ##
 
 
-* [Physical Biology of the Cell](https://www.amazon.com/Physical-Biology-Cell-Rob-Phillips-ebook/dp/B00AVA5V4E), Phillips, Kondev, Theriot, and Garcia, 2nd edition (required).
+* [Physical Biology of the Cell](https://www.amazon.com/Physical-Biology-Cell-Rob-Phillips-ebook/dp/B00AVA5V4E), Phillips, Kondev, Theriot, and Garcia, 2nd edition (recommended).
+* [Biological Physics](https://www.amazon.com/Biological-Physics-Student-Energy-Information/dp/057868702X/), Philip Nelson, student edition (suggested – as low as $10 for digital version!) 
 * [Physical Models of Living Systems](https://www.physics.upenn.edu/biophys/PMLS/), Philip Nelson (recommended).
 
 ## Prerequisites ##
@@ -63,17 +64,27 @@ The list of learning proficiencies is much larger. Some broad examples include
   calculus class (in high school or college) need the consent of the
   instructor.
 
-* Biol 112, "Cells, Genes and Inheritance" and Biol 341 are *recommended*,
-  but is **not required**. They will give
-  you a broader background (and a different perspective) on the
-  subject, but we'll introduce the biology as it comes up throughout
-  the course.
+That's it! If you're interested in classes that might give you more
+background knowledge, or a different perspective, here are a few **NOT
+REQUIRED** classes. But remember that they're not required, and we'll
+introduce the biology as it comes up throughout the course::
+
+* Biol 112, "Cells, Genes and Inheritance"
+* Biol 341 "Cell Physiology"
+* Biol 465 "RNA Biology"
+* CHEM 453: "Cell Membrane Biochemistry"
 
 ## Schedule (very approximate) ##
 
-Here's our tentative schedule of topics. The main text covers more than we can reach in a semester, and there are a many interesting, relevant topics not included in the text. So, we will feel free to modify the schedule based on student interest. For example, we removed some topics in order to spend a week and a half on [Biological Pattern Formation](https://github.com/mglerner/IntroToBiophysics/tree/master/BiologicalPatternFormation) in a previous year.
+Here's our tentative schedule of topics. The main text covers more
+than we can reach in a semester, and there are a many interesting,
+relevant topics not included in the text. So, we will feel free to
+modify the schedule based on student interest. For example, we removed
+some topics in order to spend a week and a half on
+[Biological Pattern Formation](https://github.com/mglerner/IntroToBiophysics/tree/master/BiologicalPatternFormation)
+in a previous year.
 
-Papers for discussion:
+Papers we have used for discussion before:
 
 * [Paper 1](http://simbac.gatech.edu/classes/Phys4251/papers/Gunawardena2014.pdf): Models in biology: ‘accurate descriptions of our pathetic thinking’.
 * [Paper 2](http://simbac.gatech.edu/classes/Phys4251/papers/Wang1997.pdf): Stretching DNA with Optical Tweezers,discuss Thurs. Sept. 26
@@ -92,9 +103,9 @@ Papers for discussion:
 | 6 | DNA/RNA structure, bending/packing. |
 | 7 | Protein folding, discuss Paper 2 (Wang 1997). |
 | 8 | Diffusion, crowding, discuss class projects. |
-| 9 | More models of diffusion, discuss MGL research. |
+| 9 | Biological Pattern Formation. |
 | 10 | **Break** |
-| 11 | chemical equilibrium, rate equations; cytoskeleton. |
+| 11 | Pattern Formation, Network models. |
 | 12 | molecular motors (ATP synthase, kinesin/myosin). |
 | 13 | More molecular motors, discuss Paper 3 (Yildiz 2003). |
 | 14 | Protein synthesis; genetics, central dogma. |
@@ -120,7 +131,7 @@ Papers for discussion:
   parts. We can only do that if you've done the reading ahead of
   time. To ensure that you're prepared for class, and to ensure that
   I'll be able to focus on the parts that are giving you the most
-  trouble, you will be **required to post to the Moodle/Piazza site by 9AM
+  trouble, you will be **required to post to the Moodle site by 9AM
   the day of each class**. Your post should include what you
   thought was most interesting and most important from the
   reading. You should also be sure to mention any parts of the
@@ -143,17 +154,33 @@ Papers for discussion:
   
 ## Computer programs ##
 
-To be clear: no previous experience with computer programming or simulations is required! We'll devote as much class time as necessary towards making sure everyone is comfortable with the below tools of computational biophysics.
+To be clear: no previous experience with computer programming or
+simulations is required! We'll devote as much class time as necessary
+towards making sure everyone is comfortable with the below tools of
+computational biophysics. 
 
-* VMD: This is a molecular visualization program. We'll use it to look at and analyze protein structures and simulation data. If you have a personal laptop, please download it [here](www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD). If you do not have a personal computer, VMD will be installed on the SciDiv laptops.
+* VMD: This is a molecular visualization program. We'll use it to look
+  at and analyze protein structures and simulation data. If you have a
+  personal laptop, please download it
+  [here](www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD). If
+  you do not have a personal computer, VMD will be installed on the
+  SciDiv laptops. 
 
 * Computer models are becoming more and more important in modern
-  science across the board. These days, tools like
-  Python/Jupyter notebooks make it surprisingly easy to create,
-  tweak and share computational models. **No prior experience is needed!** 
-  We'll be *using* and playing with models that the insructor (or the class as a whole) creates throughout the semester. If you have a personal laptop, please install Anaconda as described [here](https://jupyter.readthedocs.io/en/latest/install.html).
+  science across the board. These days, tools like Python/Jupyter
+  notebooks make it surprisingly easy to create, tweak and share
+  computational models. **No prior experience is needed!** We'll be
+  *using* and playing with models that the instructor (or the class as
+  a whole) creates throughout the semester. If you have a personal
+  laptop, please install Anaconda as described
+  [here](https://docs.anaconda.com/free/anaconda/install/index.htmll).
   
-* Connecting to our computing clusters: for some homework assignments, and perhaps for your final project, you will run short molecular dynamics using the local campus computing resources. If you are on a Mac or Linux, you have everything you need already installed. If you're using Windows, please install [Putty](https://www.putty.org/) and [WinSCP](https://winscp.net/eng/download.php).
+* Connecting to our computing clusters: for some homework assignments,
+  and perhaps for your final project, you will run short molecular
+  dynamics using the local campus computing resources. If you are on a
+  Mac or Linux, you have everything you need already installed. If
+  you're using Windows, please install [Putty](https://www.putty.org/)
+  and [WinSCP](https://winscp.net/eng/download.php).
 
 
 ## Acknowledgements ##
@@ -165,4 +192,3 @@ have graciously provided
 information and examples relating both to the syllabus and to the
 content. 
 
-[Physical Biology of the Cell]: http://www.rpgroup.caltech.edu/pboc2/
