@@ -193,5 +193,5 @@ information and examples relating both to the syllabus and to the
 content. 
 
 [Physical Biology of the Cell]: http://www.rpgroup.caltech.edu/pboc2/
-[Biological Physics](https://www.amazon.com/Biological-Physics-Student-Energy-Information/dp/057868702X/)
-[Physical Models of Living Systems](https://www.physics.upenn.edu/biophys/PMLS/)
+[Biological Physics]: https://www.amazon.com/Biological-Physics-Student-Energy-Information/dp/057868702X/
+[Physical Models of Living Systems]: https://www.physics.upenn.edu/biophys/PMLS/
